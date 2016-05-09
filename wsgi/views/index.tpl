@@ -10,7 +10,7 @@
 	<body>
 		<div class="glitch" data-text="GamesAPI">GamesAPI</div>
 		<ul>
-		<li> <a href="http://store.steampowered.com/"><a2></a2></a> </li>
+		<li> <a href="coc"><a2></a2></a> </li>
 		</ul>
 		<ul2>
 		<li2> <a href="http://supercell.com/en/games/clashofclans/"><b></b></a></li2>
