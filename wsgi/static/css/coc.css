@@ -223,7 +223,9 @@ body {
   color: #404040;
   font-family: "Helvetica Neue",Helvetica,"Liberation Sans",Arial,sans-serif;
   font-size: 14px;
-  line-height: 1.4;
+  margin : 0px;
+  margin-left : auto;
+  margin-right : auto;
 }
 
 html {
