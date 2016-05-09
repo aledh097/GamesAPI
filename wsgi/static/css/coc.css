@@ -1,44 +1,42 @@
+<!DOCTYPE HTML>
+
+<html lang="en">
+  <head>
+    <title>CLASH OF CLANS</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <link rel="stylesheet" href="\static\css\coc.css" />
+  </head>
+  <style>
   body {
   background-color: transparent;
   font-family: 'Varela', sans-serif;
 }
 
-.botoncoc {
+.boton {
   position: relative;
   top: 200px;
   left: -360px;
   display: inline-block;
-  -webkit-box-sizing: content-box;
-  -moz-box-sizing: content-box;
-  box-sizing: content-box;
+  padding: 15px 25px;
+  font-size: 24px;
   cursor: pointer;
-  padding: 0 20px;
+  text-align: center; 
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #dac9e7;
   border: none;
-  -webkit-border-radius: 20px;
-  border-radius: 20px;
-  font: normal normal bold 20px/40px "Baumans", Helvetica, sans-serif;
-  color: black;
-  -o-text-overflow: clip;
-  text-overflow: clip;
-  background: rgb(221, 221, 221);
-  -webkit-box-shadow: 0 1px 0 0 rgb(119,119,119) , 0 2px 0 0 rgb(119,119,119) , 0 3px 0 0 rgb(119,119,119) , 0 4px 0 0 rgb(119,119,119) , 0 5px 0 0 rgb(119,119,119) , 0 6px 0 0 rgb(119,119,119) , 0 0 5px 0 rgba(0,0,0,0.0980392) , 0 1px 3px 0 rgba(0,0,0,0.298039) , 0 3px 5px 0 rgba(0,0,0,0.2) , 0 5px 10px 0 rgba(0,0,0,0.247059) , 0 10px 10px 0 rgba(0,0,0,0.2) , 0 20px 20px 0 rgba(0,0,0,0.14902) ;
-  box-shadow: 0 1px 0 0 rgb(119,119,119) , 0 2px 0 0 rgb(119,119,119) , 0 3px 0 0 rgb(119,119,119) , 0 4px 0 0 rgb(119,119,119) , 0 5px 0 0 rgb(119,119,119) , 0 6px 0 0 rgb(119,119,119) , 0 0 5px 0 rgba(0,0,0,0.0980392) , 0 1px 3px 0 rgba(0,0,0,0.298039) , 0 3px 5px 0 rgba(0,0,0,0.2) , 0 5px 10px 0 rgba(0,0,0,0.247059) , 0 10px 10px 0 rgba(0,0,0,0.2) , 0 20px 20px 0 rgba(0,0,0,0.14902) ;
-  text-shadow: 0 1px 0 #FFFFFF ;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
 }
 
-.botoncoc:hover {
-  background: #FFFFFF;
-}
+.boton:hover {background-color: #dac9e7}
 
-.botoncoc:active {
-  margin: 6px 0 0;
-  background: rgb(221, 221, 221);
-  -webkit-box-shadow: 0 -1px 10px 0 rgba(0,0,0,0.247059) , 0 4px 10px 0 rgba(0,0,0,0.2) , 0 14px 20px 0 rgba(0,0,0,0.14902) ;
-  box-shadow: 0 -1px 10px 0 rgba(0,0,0,0.247059) , 0 4px 10px 0 rgba(0,0,0,0.2) , 0 14px 20px 0 rgba(0,0,0,0.14902) ;
-}
-
-.botoncoc:focus {
-  background: rgb(221, 221, 221);
+.boton:active {
+  background-color: #c1a6d8;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
 }
 
 div.butn{
@@ -213,3 +211,17 @@ html {
 ul {
     margin-top: 0;
 }
+
+  </style>
+  <body>
+    <div class="enjoy-css">CLASH OF CLANS</div>
+    <link async href="http://fonts.googleapis.com/css?family=Passero%20One" data-generated="http://enjoycss.com" rel="stylesheet" type="text/css"/>
+    <ul>
+    <li> <a href="http://store.steampowered.com/"><a2></a2></a> </li>
+    </ul>
+    <ul2>
+    <li2> <a href="http://supercell.com/en/games/clashofclans/"><b></b></a></li2>
+    </ul2>
+    <div class="boton"><a href="http://gamesapi-hezparust.rhcloud.com/">VOLVER ATRÁS</div></a>
+  </body> 
+</html>
