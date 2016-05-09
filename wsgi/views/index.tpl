@@ -10,7 +10,7 @@
 	<body>
 		<div class="glitch" data-text="GamesAPI">GamesAPI</div>
 		<ul>
-		<li> <a href="http://store.steampowered.com/"><a2></a2></a> </li>
+		<li> <a href="steam"><a2></a2></a> </li>
 		</ul>
 		<ul2>
 		<li2> <a href="coc"><b></b></a></li2>
