@@ -5,10 +5,10 @@
 		<title>CLASH OF CLANS</title>
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-		<link rel="stylesheet" href="\static\css\index.css" />
+		<link rel="stylesheet" href="\static\css\coc.css" />
 	</head>
 	<body>
-		<div class="glitch" data-text="CLASH OF CLANS">CLASH OF CLANS</div>
+		<div class="glitch" data-text="C.O.C">C.O.C</div>
 		<ul>
 		<li> <a href="http://store.steampowered.com/"><a2></a2></a> </li>
 		</ul>
