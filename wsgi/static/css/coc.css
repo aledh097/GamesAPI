@@ -89,93 +89,31 @@ c {
     opacity: 0.8;
 }
 
-.glitch {
-  color: white;
-  font-size: 80px;
-  position: relative;
-  width: 400px;
-  margin: 0;
-  padding-left:10px 0;
-
+.enjoy-css {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  cursor: pointer;
+  border: none;
+  font: normal 72px/normal "Passero One", Helvetica, sans-serif;
+  color: rgba(255,255,255,1);
+  text-align: center;
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  text-shadow: 0 1px 0 rgb(204,204,204) , 0 2px 0 rgb(201,201,201) , 0 3px 0 rgb(187,187,187) , 0 4px 0 rgb(185,185,185) , 0 5px 0 rgb(170,170,170) , 0 6px 1px rgba(0,0,0,0.0980392) , 0 0 5px rgba(0,0,0,0.0980392) , 0 1px 3px rgba(0,0,0,0.298039) , 0 3px 5px rgba(0,0,0,0.2) , 0 5px 10px rgba(0,0,0,0.247059) , 0 10px 10px rgba(0,0,0,0.2) , 0 20px 20px rgba(0,0,0,0.14902) ;
+  -webkit-transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
+  -moz-transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
+  -o-transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
+  transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
 }
 
-@keyframes noise-anim {
-  0% {
-    clip: rect(74px, 9999px, 51px, 0);
-  }
-  5% {
-    clip: rect(25px, 9999px, 2px, 0);
-  }
-  10% {
-    clip: rect(28px, 9999px, 44px, 0);
-  }
-  15% {
-    clip: rect(33px, 9999px, 80px, 0);
-  }
-  20% {
-    clip: rect(64px, 9999px, 50px, 0);
-  }
-  25% {
-    clip: rect(62px, 9999px, 48px, 0);
-  }
-  30% {
-    clip: rect(67px, 9999px, 48px, 0);
-  }
-  35% {
-    clip: rect(1px, 9999px, 57px, 0);
-  }
-  40% {
-    clip: rect(55px, 9999px, 43px, 0);
-  }
-  45% {
-    clip: rect(77px, 9999px, 26px, 0);
-  }
-  50% {
-    clip: rect(2px, 9999px, 13px, 0);
-  }
-  55% {
-    clip: rect(66px, 9999px, 38px, 0);
-  }
-  60% {
-    clip: rect(67px, 9999px, 87px, 0);
-  }
-  65% {
-    clip: rect(15px, 9999px, 82px, 0);
-  }
-  70% {
-    clip: rect(19px, 9999px, 67px, 0);
-  }
-  75% {
-    clip: rect(52px, 9999px, 5px, 0);
-  }
-  80% {
-    clip: rect(74px, 9999px, 96px, 0);
-  }
-  85% {
-    clip: rect(15px, 9999px, 98px, 0);
-  }
-  90% {
-    clip: rect(81px, 9999px, 36px, 0);
-  }
-  95% {
-    clip: rect(91px, 9999px, 50px, 0);
-  }
-  100% {
-    clip: rect(24px, 9999px, 1px, 0);
-  }
-}
-.glitch:after {
-  content: attr(data-text);
-  position: absolute;
-  left: 2px;
-  text-shadow: -1px 0 red;
-  top: 0;
-  color: white;
-  background: black;
-  opacity: 0;
-  overflow: hidden;
-  clip: rect(0, 900px, 0, 0);
-  animation: noise-anim 2s infinite linear alternate-reverse;
+.enjoy-css:hover {
+  color: rgba(169,214,169,1);
+  text-shadow: 0 1px 0 rgba(255,255,255,1) , 0 2px 0 rgba(255,255,255,1) , 0 3px 0 rgba(255,255,255,1) , 0 4px 0 rgba(255,255,255,1) , 0 5px 0 rgba(255,255,255,1) , 0 6px 1px rgba(0,0,0,0.0980392) , 0 0 5px rgba(0,0,0,0.0980392) , 0 1px 3px rgba(0,0,0,0.298039) , 0 3px 5px rgba(0,0,0,0.2) , 0 -5px 10px rgba(0,0,0,0.247059) , 0 -7px 10px rgba(0,0,0,0.2) , 0 -15px 20px rgba(0,0,0,0.14902) ;
+  -webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1) 10ms;
+  -moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1) 10ms;
+  -o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1) 10ms;
+  transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1) 10ms;
 }
 
 @keyframes noise-anim-2 {
