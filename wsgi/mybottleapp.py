@@ -14,7 +14,7 @@ def index():
 
 @route('/steam')
 def index():
-    return template('/views/steam.tpl')
+    return template('steam.tpl')
 
 # This must be added in order to do correct path lookups for the views
 import os
