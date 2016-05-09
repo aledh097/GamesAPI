@@ -12,6 +12,10 @@ def index():
 def index():
     return template('coc.tpl')
 
+@route('/steam')
+def index():
+    return template('coc.tpl')
+
 # This must be added in order to do correct path lookups for the views
 import os
 from bottle import TEMPLATE_PATH
