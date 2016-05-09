@@ -8,6 +8,10 @@ def nameindex(name='Stranger'):
 def index():
     return template('index.tpl')
 
+@route('/coc')
+def index():
+    return template('coc.tpl')
+
 # This must be added in order to do correct path lookups for the views
 import os
 from bottle import TEMPLATE_PATH
