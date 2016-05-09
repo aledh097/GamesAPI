@@ -1,12 +1,12 @@
 from bottle import route, default_app
 
-@route('/')
-def index():
-    return template('index.tpl')
+@route('/name/<name>')
+def nameindex(name='Stranger'):
+    return '<strong>Hello, %s!</strong>' % name
  
 @route('/')
 def index():
-    return '<strong>Hello World!</strong>'
+    return template('index.tpl')
 
 # This must be added in order to do correct path lookups for the views
 import os
