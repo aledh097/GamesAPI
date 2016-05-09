@@ -16,6 +16,10 @@ def index():
 def index():
     return template('steam.tpl')
 
+@route('/twitter')
+def index():
+    return template('twitter.tpl')
+
 # This must be added in order to do correct path lookups for the views
 import os
 from bottle import TEMPLATE_PATH

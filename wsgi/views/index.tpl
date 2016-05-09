@@ -16,7 +16,7 @@
 		<li2> <a href="coc"><b></b></a></li2>
 		</ul2>
 		<ul3>
-		<li3> <a href="https://twitter.com/"><c></c></a></li3>
+		<li3> <a href="twitter"><c></c></a></li3>
 		</ul3>
 	</body>	
 </html>
