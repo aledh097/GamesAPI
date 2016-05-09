@@ -17,6 +17,5 @@
 		<li2> <a href="http://supercell.com/en/games/clashofclans/"><b></b></a></li2>
 		</ul2>
 		<div class="botoncoc"><a href="http://gamesapi-hezparust.rhcloud.com/">VOLVER ATRÁS</div></a>
-		<link async href="http://fonts.googleapis.com/css?family=Baumans" data-generated="http://enjoycss.com" rel="stylesheet" type="text/css"/>
 	</body>	
 </html>
