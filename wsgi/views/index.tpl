@@ -10,13 +10,13 @@
 	<body>
 		<div class="glitch" data-text="GamesAPI">GamesAPI</div>
 		<ul>
-		<li> <a href="steam"><a2></a2></a> </li>
+		<li><a2><a href="steam"></a2></a> </li>
 		</ul>
 		<ul2>
-		<li2> <a href="coc"><b></b></a></li2>
+		<li2><b><a href="coc"></b></a></li2>
 		</ul2>
 		<ul3>
-		<li3> <a href="twitter"><c></c></a></li3>
+		<li3><c><a href="twitter"></c></a></li3>
 		</ul3>
 	</body>	
 </html>
