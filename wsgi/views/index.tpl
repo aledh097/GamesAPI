@@ -9,7 +9,7 @@
 	</head>
 	<body>
 		<div class="glitch" data-text="GamesAPI">GamesAPI</div>
-		<a href="www.google.es"><img src="https://i.ytimg.com/vi/-Z_u2iyYQcA/maxresdefault.jpg" border="0" alt="Link to this page" width="42" height="42"></a> 
+		<a href="www.google.es"><img src="https://i.ytimg.com/vi/-Z_u2iyYQcA/maxresdefault.jpg" border="0" alt="Link to this page"></a> 
 		<ul>
 			<li> 
 				<a2><a href="steam"></a2></a> 
