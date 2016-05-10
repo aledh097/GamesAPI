@@ -16,7 +16,7 @@
     	<a href="coc"><img id="Form" src="http://fotos.subefotos.com/062038761caef1396034be825a012c54o.jpg" onmouseover="this.style.opacity=1;this.filters.alpha.opacity='100';" onmouseout="this.style.opacity=0.8;this.filters.alpha.opacity='20';" border="0" alt="Link to this page" width="400" height="248"/></a>
     	</div>
     	<div id="botones"> 
-		<a href="/"><img class="inicio" src="http://findicons.com/files/icons/1193/litho_system/256/home.png" /></a> 
+		<a href="/"><img class="inicio" src="http://findicons.com/files/icons/1193/litho_system/256/home.png" onmouseover="this.style.opacity=1;this.filters.alpha.opacity='100';" onmouseout="this.style.opacity=0.8;this.filters.alpha.opacity='20';"/></a> 
 		</div> 
 	</body>	
 </html>
