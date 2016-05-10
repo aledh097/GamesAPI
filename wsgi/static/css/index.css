@@ -257,9 +257,6 @@ c {
   animation: noise-anim-2 3s infinite linear alternate-reverse;
 }
 
-@charset "utf-8";
-/* CSS Document */
-
 body {
   color: #404040;
   font-family: "Helvetica Neue",Helvetica,"Liberation Sans",Arial,sans-serif;
