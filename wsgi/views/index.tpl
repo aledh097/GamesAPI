@@ -1,11 +1,11 @@
-<!DOCTYPE HTML>
+kkkk<!DOCTYPE HTML>
 
 <html lang="en">
 	<head>
 		<title>API Web</title>
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-		<link rel="stylesheet" href="static\css\index.css" />
+		<link rel="stylesheet" href="\static\css\index.css" />
 	</head>
 	<body>
 		<div class="glitch" data-text="GamesAPI">GamesAPI</div>
