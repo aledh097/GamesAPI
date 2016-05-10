@@ -21,6 +21,5 @@
     	<div id="box2" method="post" action="">
     	<a href="twitter"><img src="http://phandroid.s3.amazonaws.com/wp-content/uploads/2011/12/twitter-banner.jpg" border="0" alt="Link to this page" width="400" height="248"/></a>
 		</form>
-
 	</body>	
 </html>
