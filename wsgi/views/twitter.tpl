@@ -10,7 +10,7 @@
 	<body>
 		<div class="enjoy-css">TWITTER</div>
 		<div id="main" method="post" action="">
-    	<a href="steam"><img src="http://fotos.subefotos.com/a9631d3c409930155e82c2af270b1491o.jpg" border="0" alt="Link to this page" width="400" height="248" align="left" id="Smarty" /></a>
+    	<a href="steam"><img src="http://fotos.subefotos.com/9ecd2702d4c348da409ef9d8230ede42o.jpg" border="0" alt="Link to this page" width="400" height="248" align="left" id="Smarty" /></a>
 		</div>
 		<div id="box" method="post" action="">
     	<a href="coc"><img id="Form" src="http://fotos.subefotos.com/217e599a8d8fdbb7786412775df8b048o.jpg" border="0" alt="Link to this page" width="400" height="248"/></a>
