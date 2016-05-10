@@ -3,6 +3,18 @@ background-color: transparent;
 font-family: 'Varela', sans-serif;
 }
 
+#botones{ 
+display: block; 
+margin: 0px auto; 
+padding: 0px; 
+} 
+
+.inicio{ 
+width: 10px; 
+height: 10px; 
+background: url("https://upload.wikimedia.org/wikipedia/commons/b/ba/Access_and_home.png") no-repeat; 
+} 
+
 #main {
     position: relative;
     top: 10px;
