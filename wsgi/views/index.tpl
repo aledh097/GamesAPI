@@ -1,4 +1,4 @@
-kkkk<!DOCTYPE HTML>
+<!DOCTYPE HTML>
 
 <html lang="en">
 	<head>
