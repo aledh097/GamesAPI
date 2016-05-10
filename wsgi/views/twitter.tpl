@@ -10,7 +10,7 @@
 	<body>
 		<div class="enjoy-css">TWITTER</div>
 		<div id="main" method="post" action="">
-    	<a href="steam"><img src="http://fotos.subefotos.com/9ecd2702d4c348da409ef9d8230ede42o.jpg" border="0" alt="Link to this page" width="400" height="248" align="left" id="Smarty" /></a>
+    	<a href="steam"><img src="http://fotos.subefotos.com/9ecd2702d4c348da409ef9d8230ede42o.jpg" onmouseover="this.style.opacity=1;this.filters.alpha.opacity='100';" onmouseout="this.style.opacity=0.8;this.filters.alpha.opacity='20';" border="0" alt="Link to this page" width="400" height="248" align="left" id="Smarty" /></a>
 		</div>
 		<a href="/"><img class="inicio" src="http://www.clker.com/cliparts/0/d/H/0/t/i/home-logo-hi.png" /></a>
 	</body>	
