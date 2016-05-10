@@ -3,85 +3,16 @@ background-color: transparent;
 font-family: 'Varela', sans-serif;
 }
 
-.boton {
-  position: relative;
-  top: 200px;
-  left: -360px;
-  display: inline-block;
-  padding: 15px 25px;
-  font-size: 24px;
-  cursor: pointer;
-  text-align: center; 
-  text-decoration: none;
-  outline: none;
-  color: #323232;
-  background-color: #dac9e7;
-  border: none;
-  border-radius: 15px;
-  box-shadow: 0 9px #999;
-}
-
-.boton:hover {background-color: #dac9e7}
-
-.boton:active {
-  background-color: #c1a6d8;
-  box-shadow: 0 5px #666;
-  transform: translateY(4px);
-}
-
-div.butn{
-background-color:url("http://www.enbolivia.com/files/imagen_corporativa.jpg")
-width:250px;
-height:100px;
-}
-div.butn:active{
-background-image:url("http://www.enbolivia.com/files/imagen_corporativa.jpg")
-width:250px;
-height:100px;
-}
-
-ul {
-    margin-left:0 ;
-    padding-left:8px 0 ;
-    list-style-type:none ;
-}
-
-li {
-    margin:250px 0;
-}
-
-a2 {
-    color: #FFFFCC;
+#main {
     position: relative;
-    top: -5px;
-    left: 0px;
-    text-decoration: none;
-    text-align:left;
-    padding:200px ;
-    background: url("http://fotos.subefotos.com/a9631d3c409930155e82c2af270b1491o.jpg") no-repeat;
-    background-size: 400px 248px;
+    top: 10px;
+    left: 20px;
 }
 
-ul2 {
-    margin-left: 0 ;
-    padding-left:8px 0 ;
-    list-style-type:none ;
-}
-
-li2 {
-    margin:250px 0;
-}
-
-b {
-    color: #FFFFCC;
+#box {
     position: relative;
-    top: 60px;
-    left: 30px;
-    text-decoration: none;
-    text-align:left;
-    padding:200px ;
-    background: url("http://fotos.subefotos.com/217e599a8d8fdbb7786412775df8b048o.jpg") no-repeat;
-    background-size: 400px 240px;
+    top: 300px;
+    left: -380px;
 }
 
 .enjoy-css {
@@ -176,9 +107,6 @@ b {
     clip: rect(72px, 9999px, 72px, 0);
   }
 }
-
-@charset "utf-8";
-/* CSS Document */
 
 body {
   width: 100%;
