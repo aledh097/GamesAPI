@@ -1,6 +1,19 @@
-body {
-  background-color: transparent;
-  font-family: 'Varela', sans-serif;
+#main {
+    position: relative;
+    top: 10px;
+    left: 20px;
+}
+
+#box {
+    position: relative;
+    top: 300px;
+    left: -380px;
+}
+
+#box2 {
+    position: relative;
+    top: 340px;
+    left: 20px;
 }
 
 .glitch {
@@ -182,12 +195,4 @@ html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
-}
-
-html {
-  background: url("http://fotos.subefotos.com/1aa8e7ae0ea5b3b37cc42df36de492b7o.jpg") no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover; 
 }
