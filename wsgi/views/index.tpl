@@ -1,3 +1,5 @@
+<!DOCTYPE HTML>
+
 <html lang="en">
 	<head>
 		<title>API Web</title>
