@@ -1,3 +1,3 @@
 #GamesAPI
 
-Repositorio de la página web: gamesapi-hezparust.rhcloud.com
+Repositorio de la página web: www.gamesapi-hezparust.rhcloud.com
