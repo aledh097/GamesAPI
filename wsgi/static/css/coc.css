@@ -15,32 +15,6 @@ font-family: 'Varela', sans-serif;
     left: -380px;
 }
 
-.boton {
-  position: relative;
-  top: 200px;
-  left: -360px;
-  display: inline-block;
-  padding: 15px 25px;
-  font-size: 24px;
-  cursor: pointer;
-  text-align: center; 
-  text-decoration: none;
-  outline: none;
-  color: #568b41;
-  background-color: #dac9e7;
-  border: none;
-  border-radius: 15px;
-  box-shadow: 0 9px #999;
-}
-
-.boton:hover {background-color: #dac9e7}
-
-.boton:active {
-  background-color: #c1a6d8;
-  box-shadow: 0 5px #666;
-  transform: translateY(4px);
-}
-
 div.butn{
 background-color:url("http://www.enbolivia.com/files/imagen_corporativa.jpg")
 width:250px;
