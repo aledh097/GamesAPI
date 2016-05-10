@@ -3,6 +3,18 @@ background-color: transparent;
 font-family: 'Varela', sans-serif;
 }
 
+#main {
+    position: relative;
+    top: 10px;
+    left: 20px;
+}
+
+#box {
+    position: relative;
+    top: 300px;
+    left: -380px;
+}
+
 .boton {
   position: relative;
   top: 200px;
