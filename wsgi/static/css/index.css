@@ -4,6 +4,20 @@
     left: 20px;
 }
 
+img {
+border: 5px solid #ccc;
+float: left;
+margin: 15px;
+-webkit-transition: margin 0.5s ease-out;
+-moz-transition: margin 0.5s ease-out;
+-ms-transition: margin 0.5s ease-out;
+transition: margin 0.5s ease-out;
+}
+
+.ex1 img:hover {
+margin-top: 2px;
+}
+
 #box {
     position: relative;
     top: 300px;
