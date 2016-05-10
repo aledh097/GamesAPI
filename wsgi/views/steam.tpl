@@ -16,6 +16,6 @@
 		<ul2>
 		<li2> <a href="http://supercell.com/en/games/clashofclans/"><b></b></a></li2>
 		</ul2>
-		<div class="boton"><a href="http://gamesapi-hezparust.rhcloud.com/">VOLVER ATRÁS</div></a>
+		<a href="http://gamesapi-hezparust.rhcloud.com/"><div class="boton">VOLVER ATRÁS</div></a>
 	</body>	
 </html>
