@@ -8,7 +8,7 @@
 		<link rel="stylesheet" href="/static/css/steam.css" />
 	</head>
 	<body>
-		<div class="enjoy-css" align="right">STEAM</div>
+		<div class="enjoy-css">STEAM</div>
 		<div id="main" method="post" action="">
     	<a href="steam"><img src="http://fotos.subefotos.com/a9631d3c409930155e82c2af270b1491o.jpg" border="0" alt="Link to this page" width="400" height="248" align="left" id="Smarty" /></a>
 		</div>
