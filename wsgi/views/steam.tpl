@@ -16,7 +16,7 @@
     	<a href="coc"><img id="Form" src="http://fotos.subefotos.com/217e599a8d8fdbb7786412775df8b048o.jpg" border="0" alt="Link to this page" width="400" height="248"/></a>
     	</div>
     	<div id="botones"> 
-		<a href="/"><img class="inicio" src="https://upload.wikimedia.org/wikipedia/commons/b/ba/Access_and_home.png" /></a> 
+		<a href="/"><img class="inicio" src="http://findicons.com/files/icons/1193/litho_system/256/home.png" /></a> 
 		</div> 
 	</body>	
 </html>
