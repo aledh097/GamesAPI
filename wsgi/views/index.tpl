@@ -9,6 +9,6 @@
 	</head>
 	<body>
 		<div class="glitch" data-text="GamesAPI">GamesAPI</div>
-		<a href="www.google.es"><img src="https://i.ytimg.com/vi/-Z_u2iyYQcA/maxresdefault.jpg" border="0" alt="Link to this page" width="250" height="400"></a>
+		<a href="www.google.es"><img src="https://i.ytimg.com/vi/-Z_u2iyYQcA/maxresdefault.jpg" border="0" alt="Link to this page" width="400" height="248" position: relative top: -5px left: 0px></a>
 	</body>	
 </html>
