@@ -15,11 +15,11 @@
 		</div>
 
 		<div id="box" method="post" action="">
-    	<a href="coc"><img id="Form" src="https://i.ytimg.com/vi/-Z_u2iyYQcA/maxresdefault.jpg" border="0" alt="Link to this page" width="400" height="248"/></a>
+    	<a href="coc"><img id="Form" src="https://i.ytimg.com/vi/-Z_u2iyYQcA/maxresdefault.jpg" onmouseover="this.style.opacity=1;this.filters.alpha.opacity='100';" onmouseout="this.style.opacity=0.8;this.filters.alpha.opacity='20';" border="0" alt="Link to this page" width="400" height="248"/></a>
     	</div>
 
     	<div id="box2" method="post" action="">
-    	<a href="twitter"><img src="http://phandroid.s3.amazonaws.com/wp-content/uploads/2011/12/twitter-banner.jpg" border="0" alt="Link to this page" width="400" height="248"/></a>
+    	<a href="twitter"><img src="http://phandroid.s3.amazonaws.com/wp-content/uploads/2011/12/twitter-banner.jpg" onmouseover="this.style.opacity=1;this.filters.alpha.opacity='100';" onmouseout="this.style.opacity=0.8;this.filters.alpha.opacity='20';" border="0" alt="Link to this page" width="400" height="248"/></a>
 		</form>
 	</body>	
 </html>
