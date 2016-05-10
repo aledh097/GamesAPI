@@ -11,7 +11,7 @@
 		<div class="glitch" data-text="GamesAPI">GamesAPI</div>
 
 		<div id="main" method="post" action="">
-    	<a href="steam"><img src="http://api.ning.com/files/imbe9KBD0dM*C3NLAa00luL4S53v3VFdbDOfDQssc7EiQo0y*hCHd*iiwQvR9kcY16m*jFqiJup2ngV1qx377-psF1d3BXsm/0STEAMWALLPAPERNAVYMOSAIC.jpg" border="0" alt="Link to this page" width="400" height="248" align="left" id="Smarty" /></a>
+    	<a href="steam"><img src="http://api.ning.com/files/imbe9KBD0dM*C3NLAa00luL4S53v3VFdbDOfDQssc7EiQo0y*hCHd*iiwQvR9kcY16m*jFqiJup2ngV1qx377-psF1d3BXsm/0STEAMWALLPAPERNAVYMOSAIC.jpg"  onmouseover="this.width=500;this.height=400;" onmouseout="this.width=100;this.height=80;" width="100" height="80" border="0" alt="Link to this page" align="left" id="Smarty" /></a>
 		</div>
 
 		<div id="box" method="post" action="">
