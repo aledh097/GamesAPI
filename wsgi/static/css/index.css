@@ -30,6 +30,9 @@ ul2 {
 
 li2 {
     margin:250px 0;
+    position: relative;
+    top: -5px;
+    left: 40px;
 }
 
 b {
@@ -45,16 +48,6 @@ b {
     opacity: 0.8;
 }
 
-.glitch {
-  color: white;
-  font-size: 80px;
-  position: relative;
-  width: 400px;
-  margin: 0;
-  padding-left:10px 0;
-
-}
-
 ul3 {
     margin-left: 0 ;
     padding-left:8px 0 ;
@@ -63,6 +56,9 @@ ul3 {
 
 li3 {
     margin:250px 0;
+    position: relative;
+    top:  260px;
+    left: -360px;
 }
 
 c {
