@@ -5,7 +5,7 @@
 		<title>STEAM</title>
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-		<link rel="stylesheet" href="/static/css/coc.css" />
+		<link rel="stylesheet" href="/static/css/steam.css" />
 	</head>
 	<body>
 		<div class="enjoy-css">STEAM</div>
