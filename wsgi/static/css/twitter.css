@@ -19,6 +19,18 @@ height: 80px;
 background: url("http://www.clker.com/cliparts/0/d/H/0/t/i/home-logo-hi.png") no-repeat; 
 } 
 
+#main {
+    position: relative;
+    top: 10px;
+    left: 20px;
+}
+
+#box {
+    position: relative;
+    top: 300px;
+    left: -380px;
+}
+
 .enjoy-css {
   -webkit-box-sizing: content-box;
   -moz-box-sizing: content-box;

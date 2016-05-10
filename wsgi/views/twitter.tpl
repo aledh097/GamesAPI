@@ -9,13 +9,12 @@
 	</head>
 	<body>
 		<div class="enjoy-css">TWITTER</div>
-		<link async href="http://fonts.googleapis.com/css?family=Passero%20One" data-generated="http://enjoycss.com" rel="stylesheet" type="text/css"/>
-		<ul>
-		<li> <a href="http://store.steampowered.com/"><a2></a2></a> </li>
-		</ul>
-		<ul2>
-		<li2> <a href="http://supercell.com/en/games/clashofclans/"><b></b></a></li2>
-		</ul2>
+		<div id="main" method="post" action="">
+    	<a href="steam"><img src="http://fotos.subefotos.com/a9631d3c409930155e82c2af270b1491o.jpg" border="0" alt="Link to this page" width="400" height="248" align="left" id="Smarty" /></a>
+		</div>
+		<div id="box" method="post" action="">
+    	<a href="coc"><img id="Form" src="http://fotos.subefotos.com/217e599a8d8fdbb7786412775df8b048o.jpg" border="0" alt="Link to this page" width="400" height="248"/></a>
+    	</div>
 		<a href="/"><img class="inicio" src="http://www.clker.com/cliparts/0/d/H/0/t/i/home-logo-hi.png" /></a>
 	</body>	
 </html>
