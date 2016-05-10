@@ -4,6 +4,9 @@ font-family: 'Varela', sans-serif;
 }
 
 #botones{ 
+position: relative;
+top: 300px;
+left: -380px;
 display: block; 
 margin: 0px auto; 
 padding: 0px; 
