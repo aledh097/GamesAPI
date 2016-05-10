@@ -3,6 +3,21 @@ background-color: transparent;
 font-family: 'Varela', sans-serif;
 }
 
+#botones{ 
+position: relative;
+top: 500px;
+left: 0px;
+display: block; 
+margin: 0px auto; 
+padding: 0px; 
+} 
+
+.inicio{ 
+width: 40px; 
+height: 40px; 
+background: url("http://findicons.com/files/icons/770/token_dark/256/home.png") no-repeat; 
+} 
+
 #main {
     position: relative;
     top: 10px;
@@ -13,17 +28,6 @@ font-family: 'Varela', sans-serif;
     position: relative;
     top: 300px;
     left: -380px;
-}
-
-div.butn{
-background-color:url("http://www.enbolivia.com/files/imagen_corporativa.jpg")
-width:250px;
-height:100px;
-}
-div.butn:active{
-background-image:url("http://www.enbolivia.com/files/imagen_corporativa.jpg")
-width:250px;
-height:100px;
 }
 
 .enjoy-css {

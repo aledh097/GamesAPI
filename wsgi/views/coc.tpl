@@ -15,5 +15,6 @@
 		<div id="box" method="post" action="">
     	<a href="coc"><img id="Form" src="http://fotos.subefotos.com/217e599a8d8fdbb7786412775df8b048o.jpg" border="0" alt="Link to this page" width="400" height="248"/></a>
     	</div>
+    	<a href="/"><img class="inicio" src="http://findicons.com/files/icons/770/token_dark/256/home.png" /></a>
 	</body>	
 </html>
