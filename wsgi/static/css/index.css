@@ -3,17 +3,6 @@ body {
   font-family: 'Varela', sans-serif;
 }
 
-div.butn{
-background-color:url("http://www.enbolivia.com/files/imagen_corporativa.jpg")
-width:250px;
-height:100px;
-}
-div.butn:active{
-background-image:url("http://www.enbolivia.com/files/imagen_corporativa.jpg")
-width:250px;
-height:100px;
-}
-
 ul {
     margin-left:0 ;
     padding-left:8px 0 ;
