@@ -28,6 +28,10 @@ def index():
 def index():
     return template('perfil.tpl')
 
+@route('/clan')
+def index():
+    return template('clan.tpl')
+
 # This must be added in order to do correct path lookups for the views
 import os
 from bottle import TEMPLATE_PATH
