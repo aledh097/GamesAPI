@@ -1,0 +1,40 @@
+h1 {
+    text-shadow: 1px 1px 2px black, 0 0 4px blue, 0 0 19px darkblue;
+}
+
+b2 {
+    text-shadow: 1px 1px 2px black, 0 0 4px blue, 0 0 19px darkblue;
+}
+
+
+html {
+  background: url("http://www.gamecrate.com/sites/default/files/field/image/Steam_Reviews_Update%5B1%5D.png") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; 
+}
+
+#botones{ 
+position: relative;
+top: 520px;
+left: 10px;
+display: block; 
+margin: 0px auto; 
+padding: 0px; 
+} 
+
+.inicio{ 
+width: 60px; 
+height: 60px; 
+background: url("http://findicons.com/files/icons/1193/litho_system/256/home.png") no-repeat; 
+} 
+
+.inicio2{ 
+position: relative;
+top: -580px;
+left: 100px;
+width: 60px; 
+height: 60px; 
+background: url("http://findicons.com/files/icons/1193/litho_system/256/home.png") no-repeat; 
+} 
