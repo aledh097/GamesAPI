@@ -16,6 +16,10 @@ def index():
 def index():
     return template('steam.tpl')
 
+@route('/noticia')
+def index():
+    return template('noticia.tpl')
+
 @route('/twitter')
 def index():
     return template('twitter.tpl')
