@@ -26,7 +26,7 @@ def index():
 
 @route('/perfil')
 def index():
-    return template('twitter.tpl')
+    return template('perfil.tpl')
 
 # This must be added in order to do correct path lookups for the views
 import os
