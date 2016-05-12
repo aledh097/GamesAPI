@@ -8,7 +8,7 @@
 <body> 
 <h1><font COLOR=white>Buscar perfil de un jugador de Steam en concreto mediante su "ID"</font></h1>
 <h2><font COLOR=white>Busca su Nick : <a href="https://steamcommunity.com/search/users/
-" ><font color="9a82ff  ">Aqui!</a> y su ID en el siguiente link:<a href="http://www.steam64.com/" ><font color="9a82ff  ">Aqui!</a></font></h2> 
+" ><font color="9a82ff  ">Aqui!</a><font COLOR=white> y su ID en el siguiente link:</font><a href="http://www.steam64.com/" ><font color="9a82ff  ">Aqui!</a></font></h2> 
 <form method="Post" action="ingreso.asp"> 
 
 <p align="left"><font COLOR=white face="Tahoma" size="5"><b><i>ID:        <input type="text" name="Dato1" size="50"> 
