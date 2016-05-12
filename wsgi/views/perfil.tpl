@@ -7,7 +7,7 @@
 
 <body> 
 <h1><font COLOR=white>Buscar perfil de un jugador de Steam en concreto mediante su "ID"</font></h1>
-<h2><font COLOR=white>Busca su ID en el siguiente link: <a href="http://www.steam64.com/
+<h2><font COLOR=white>Busca su ID en el siguiente link (https://steamcommunity.com/id/NICK): <a href="http://www.steam64.com/
 " ><font color="9a82ff  ">Aqui!</a></font></h2> 
 <form method="Post" action="ingreso.asp"> 
 
