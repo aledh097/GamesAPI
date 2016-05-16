@@ -18,7 +18,7 @@
 		<h2 align="center"><font COLOR=white> Pais: <b2>{{Pais}}</b2></font></h2>
 		<h2 align="center"><font COLOR=white> Codigo del Estado: <b2>{{Codigo_del_Estado}}</b2></font></h2>
 		<h2 align="center"><font COLOR=white> Codigo de la ciudad: <b2>{{Codigo_de_la_ciudad}}</b2></font></h2>
-		<h2 align="center"><font COLOR=white> Estado (0=Desconectado ; 1=Conectado ; 2=Desconectado): <b2>{{estado}}</b2></font></h2>
+		<h2 align="center"><font COLOR=white> Estado <h3>(0=Desconectado ; 1=Conectado ; 2=Ausente)</h3>: <b2>{{estado}}</b2></font></h2>
 
 
 </html>
