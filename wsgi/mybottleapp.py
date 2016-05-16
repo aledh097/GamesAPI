@@ -1,4 +1,4 @@
-from bottle import Bottle,route,default_app,request,template,static_file,get,post
+from bottle import route, run, template, get, post, request, response, redirect, default_app, static_file, TEMPLATE_PATH, error, redirect
 import urllib2
 import requests
 
@@ -31,7 +31,7 @@ def twitter():
 def clan():
     return template('clan.tpl')
 
-@post('/perfil')
+@get('/perfil')
 def perfil():
     id_perfil = request.forms.get("idperfil")
     dicc_parametros={'key':'1685786EECBF130267010877BAB447D0','steamids':id_perfil}
@@ -41,7 +41,7 @@ def perfil():
     nick=datos["response"]["players"][0]["personaname"]
     return template('resultadoperfil.tpl')
 
-@get('/resultadoperfil')
+@post('/resultadoperfil')
 def resultadoperfil():
     return template('perfil.tpl')
 
