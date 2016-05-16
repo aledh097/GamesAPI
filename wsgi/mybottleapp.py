@@ -58,5 +58,4 @@ def resultadoperfil():
 
         return template('resultadoperfil.tpl',id_perfil=id_perfil,id=id,nick=nick,nombre_real=nombre_real,Avatar=Avatar,Pais=Pais,Codigo_del_Estado=Codigo_del_Estado,Codigo_de_la_ciudad=Codigo_de_la_ciudad,estado=estado, ultimo_logeo=ultimo_logeo,id_clan=id_clan,fecha_creacion=fecha_creacion)
 
-TEMPLATE_PATH.append(os.path.join(os.environ['OPENSHIFT_REPO_DIR'], 'wsgi/views/'))
 application=default_app()
