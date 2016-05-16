@@ -55,7 +55,8 @@ def resultadoperfil():
         id_clan=datos["response"]["players"][0]["primaryclanid"]
         fecha_creacion=time.ctime(int(datos["response"]["players"][0]["timecreated"]))
 
-    return template('resultadoperfil.tpl',id_perfil=id_perfil,id=id,nick=nick,nombre_real=nombre_real,Avatar=Avatar,Pais=Pais,Codigo_del_Estado=Codigo_del_Estado,Codigo_de_la_ciudad=Codigo_de_la_ciudad,estado=estado, ultimo_logeo=ultimo_logeo,id_clan=id_clan,fecha_creacion=fecha_creacion)
+    try:
+        return template('resultadoperfil.tpl',id_perfil=id_perfil,id=id,nick=nick,nombre_real=nombre_real,Avatar=Avatar,Pais=Pais,Codigo_del_Estado=Codigo_del_Estado,Codigo_de_la_ciudad=Codigo_de_la_ciudad,estado=estado, ultimo_logeo=ultimo_logeo,id_clan=id_clan,fecha_creacion=fecha_creacion)
 
 # This must be added in order to do correct path lookups for the views
 import os
