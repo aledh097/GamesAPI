@@ -42,7 +42,7 @@ def resultadoperfil():
     #	id=datos["response"]["players"][0]["steamid"]
     #try:
     #	nick=datos["response"]["players"][0]["personaname"]
-    #return template('resultadoperfil.tpl')
+    return template('resultadoperfil.tpl')
 
 # This must be added in order to do correct path lookups for the views
 import os
