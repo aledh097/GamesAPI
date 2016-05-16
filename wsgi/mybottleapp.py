@@ -35,6 +35,12 @@ def index():
 # This must be added in order to do correct path lookups for the views
 import os
 from bottle import TEMPLATE_PATH
-TEMPLATE_PATH.append(os.path.join(os.environ['OPENSHIFT_REPO_DIR'], 'wsgi/views/')) 
+ON_OPENSHIFT = False
+if os.environ.has_key('OPENSHIFT_REPO_DIR'):
+    ON_OPENSHIFT = True
 
+if ON_OPENSHIFT:
+    TEMPLATE_PATH.append(os.path.join(os.environ['OPENSHIFT_HOMEDIR'],
+                                      'app-root/repo/wsgi/views/'))
 application=default_app()
+run(host='localhost', port=8080)
