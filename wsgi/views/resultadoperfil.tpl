@@ -19,7 +19,7 @@
 		<h2 align="center"><font COLOR=white> Codigo del Estado: <b2>{{Codigo_del_Estado}}</b2></font></h2>
 		<h2 align="center"><font COLOR=white> Codigo de la ciudad: <b2>{{Codigo_de_la_ciudad}}</b2></font></h2>
 		<h2 align="center"><font COLOR=white> Estado (0=Desconectado ; 1=Conectado ; 2=Ausente): <b2>{{estado}}</b2></font></h2>
-
+		<h2 align="center"><font COLOR=white> Ultimo logeo: <b2>{{ultimo_logeo}}</b2></font></h2>
 
 </html>
 
