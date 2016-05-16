@@ -1,4 +1,4 @@
-from bottle import Bottle,route,default_app,request,template,static_file
+from bottle import Bottle,route,default_app,request,template,static_file,get,post
 import urllib2
 import requests
 
