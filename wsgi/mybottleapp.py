@@ -43,7 +43,7 @@ def resultadoperfil():
     datos = json.loads(r.text.encode("utf-8"))
     id=datos["response"]["players"][0]["steamid"]
     nick=datos["response"]["players"][0]["personaname"]
-    return template('resultadoperfil.tpl',id_perfil=id_perfil)
+    return template('resultadoperfil.tpl',id_perfil=id_perfil,id=id,nick=nick)
 
 # This must be added in order to do correct path lookups for the views
 import os
