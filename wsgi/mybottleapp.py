@@ -31,11 +31,11 @@ def twitter():
 def clan():
     return template('clan.tpl')
 
-@route('/perfil', method=['GET','POST'])
+@route('/perfil', method='POST')
 def perfil():
     return template('resultadoperfil.tpl')
 
-@route('/resultadoperfil', method=['GET','POST'])
+@route('/resultadoperfil', method='GET')
 def resultadoperfil():
     id_perfil = request.forms.get("idperfil")
     dicc_parametros={'key':'1685786EECBF130267010877BAB447D0','steamids':id_perfil}
