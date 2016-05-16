@@ -31,21 +31,21 @@ def twitter():
 def clan():
     return template('clan.tpl')
 
-@route('/perfil')
+@post('/perfil')
 def perfil():
-    return template('perfil.tpl')
-
-@route('/resultadoperfil')
-def resultadoperfil():
-	id_perfil = request.forms.get("idperfil")
-	dicc_parametros={'key':'1685786EECBF130267010877BAB447D0','steamids':id_perfil}
+    id_perfil = request.forms.get("idperfil")
+    dicc_parametros={'key':'1685786EECBF130267010877BAB447D0','steamids':id_perfil}
     r = requests.get("http://api.steampowered.com/ISteamUser/GetPlayerSummaries/v0002/", params=dicc_parametros)
     datos = json.loads(r.text.encode("utf-8"))
     try:
-    	id=datos["response"]["players"][0]["steamid"]
+        id=datos["response"]["players"][0]["steamid"]
     try:
-    	nick=datos["response"]["players"][0]["personaname"]
+        nick=datos["response"]["players"][0]["personaname"]
     return template('resultadoperfil.tpl')
+
+@get('/resultadoperfil')
+def resultadoperfil():
+    return template('perfil.tpl')
 
 # This must be added in order to do correct path lookups for the views
 import os
