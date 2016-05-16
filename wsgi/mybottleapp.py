@@ -2,7 +2,6 @@ from bottle import route, run, template, get, post, request, response, redirect,
 import urllib2
 import requests
 import json
-import datetime
 
 @route('/name/<name>')
 def nameindex(name='Stranger'):
@@ -50,9 +49,7 @@ def resultadoperfil():
     Codigo_del_Estado=datos["response"]["players"][0]["locstatecode"]
     Codigo_de_la_ciudad=datos["response"]["players"][0]["loccityid"]
     estado=datos["response"]["players"][0]["personastate"]
-    ultimo_logeo=(datetime.datetime.fromtimestamp(
-    int(lineas["response"]["players"][0]["lastlogoff"])
-    ).strftime('%Y-%m-%d %H:%M:%S'))
+
 
     return template('resultadoperfil.tpl',id_perfil=id_perfil,id=id,nick=nick,nombre_real=nombre_real,Avatar=Avatar,Pais=Pais,Codigo_del_Estado=Codigo_del_Estado,Codigo_de_la_ciudad=Codigo_de_la_ciudad,estado=estado,ultimo_logeo=ultimo_logeo)
 
