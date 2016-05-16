@@ -9,27 +9,31 @@ def index():
     return template('index.tpl')
 
 @route('/coc')
-def index():
+def coc():
     return template('coc.tpl')
 
 @route('/steam')
-def index():
+def steam():
     return template('steam.tpl')
 
 @route('/noticia')
-def index():
+def noticia():
     return template('noticia.tpl')
 
 @route('/twitter')
-def index():
+def twitter():
     return template('twitter.tpl')
 
 @route('/perfil')
-def index():
+def perfil():
     return template('perfil.tpl')
 
 @route('/clan')
-def index():
+def clan():
+    return template('clan.tpl')
+
+@route('/resultadoperfil')
+def resultadoperfil():
     return template('clan.tpl')
 
 # This must be added in order to do correct path lookups for the views
