@@ -8,9 +8,9 @@
 		<link rel="stylesheet" href="/static/css/resultadoperfil.css" />
 	</head>
 	<body>
-		<h1> Resultado: </h1>
-		<h2> Datos del usuario cuya id es {{id_perfil}} es: </h2>
-		<h2> ID del usuario: {{id}}</h2>
-		<h2> Nick del usuario: {{nick}}</h2>
+		<h1><font COLOR=white>Resultado: </font></h1>
+		<h2><font COLOR=white> Datos del usuario cuya id es {{id_perfil}} es: </font></h2>
+		<h2><font COLOR=white> ID del usuario: {{id}}</font></h2>
+		<h2><font COLOR=white> Nick del usuario: {{nick}}</font></h2>
 	</body>	
 </html>
