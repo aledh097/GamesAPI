@@ -14,7 +14,7 @@
 		<h2 align="center"><font COLOR=white> Nombre real: <b2>{{nombre_real}}</b2></font></h2>
 		<h2 align="center"><font COLOR=white> ID: <b2>{{id}}</b2></font></h2>
 		<h2 align="center"><font COLOR=white> Nick: <b2>{{nick}}</b2></font></h2>
-		<h2 align="center"><font COLOR=white>Avatar:</font></h2> <img src={{Avatar}}>
+		<h2 align="center"><font COLOR=white>Avatar:</font></h2> <img align="center" src={{Avatar}}>
 		<h2 align="center"><font COLOR=white> Pais: <b2>{{Pais}}</b2></font></h2>
 		<h2 align="center"><font COLOR=white> Codigo del Estado: <b2>{{Codigo_del_Estado}}</b2></font></h2>
 		<h2 align="center"><font COLOR=white> Codigo de la ciudad: <b2>{{Codigo_de_la_ciudad}}</b2></font></h2>
