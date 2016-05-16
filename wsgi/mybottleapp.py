@@ -33,7 +33,7 @@ def clan():
 
 @route('/perfil')
 def perfil():
-    return template('resultadoperfil.tpl')
+    return template('perfil.tpl')
 
 @route('/resultadoperfil', method='GET')
 def resultadoperfil():
@@ -43,7 +43,7 @@ def resultadoperfil():
     datos = json.loads(r.text.encode("utf-8"))
     id=datos["response"]["players"][0]["steamid"]
     nick=datos["response"]["players"][0]["personaname"]
-    return template('perfil.tpl')
+    return template('resultadoperfil.tpl')
 
 # This must be added in order to do correct path lookups for the views
 import os
