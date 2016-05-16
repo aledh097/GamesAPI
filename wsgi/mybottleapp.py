@@ -34,7 +34,7 @@ def clan():
 
 @route('/resultadoperfil')
 def resultadoperfil():
-	#id_perfil = request.forms.get("IDperfil")
+	id_perfil = request.forms.get("IDperfil")
 	#dicc_parametros = {'key':'1685786EECBF130267010877BAB447D0','format':'json','steamids':id_perfil}
     #r = requests.get("http://api.steampowered.com/ISteamUser/GetPlayerSummaries/v0002/", params=dicc_parametros)
     #datos = json.loads(r.text.encode("utf-8"))
