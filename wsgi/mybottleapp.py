@@ -37,10 +37,8 @@ def perfil():
     dicc_parametros={'key':'1685786EECBF130267010877BAB447D0','steamids':id_perfil}
     r = requests.get("http://api.steampowered.com/ISteamUser/GetPlayerSummaries/v0002/", params=dicc_parametros)
     datos = json.loads(r.text.encode("utf-8"))
-    try:
-        id=datos["response"]["players"][0]["steamid"]
-    try:
-        nick=datos["response"]["players"][0]["personaname"]
+    id=datos["response"]["players"][0]["steamid"]
+    nick=datos["response"]["players"][0]["personaname"]
     return template('resultadoperfil.tpl')
 
 @get('/resultadoperfil')
