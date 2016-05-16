@@ -14,7 +14,7 @@
 		<h2><font COLOR=white> Nombre real: <b2>{{nombre_real}}</b2></font></h2>
 		<h2><font COLOR=white> ID: <b2>{{id}}</b2></font></h2>
 		<h2><font COLOR=white> Nick: <b2>{{nick}}</b2></font></h2>
-		<h2>Avatar:</h2> <img src={{Avatar}}>
+		<h2>Avatar:</h2> <img src="http://cdn.akamai.steamstatic.com/steamcommunity/public/images/avatars/36/3693b23e3c700de020df9f1c0a6ccbca29ceda52_full.jpg">
 </html>
 
 
