@@ -31,7 +31,7 @@ def twitter():
 def clan():
     return template('clan.tpl')
 
-@bottle.post('/perfil')
+@post('/perfil')
 def perfil():
     id_perfil = request.forms.get("idperfil")
     dicc_parametros={'key':'1685786EECBF130267010877BAB447D0','steamids':id_perfil}
@@ -41,7 +41,7 @@ def perfil():
     nick=datos["response"]["players"][0]["personaname"]
     return template('resultadoperfil.tpl')
 
-@bottle.get('/resultadoperfil')
+@get('/resultadoperfil')
 def resultadoperfil():
     return template('perfil.tpl')
 
