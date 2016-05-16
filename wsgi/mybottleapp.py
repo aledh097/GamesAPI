@@ -43,8 +43,12 @@ def resultadoperfil():
     datos = json.loads(r.text.encode("utf-8"))
     try:
         id=datos["response"]["players"][0]["steamid"]
+    else:
+        id="no disponible"
     try:
         nick=datos["response"]["players"][0]["personaname"]
+    else:
+        nick="no disponible"
     return template('resultadoperfil.tpl',id_perfil=id_perfil,id=id,nick=nick)
 
 # This must be added in order to do correct path lookups for the views
