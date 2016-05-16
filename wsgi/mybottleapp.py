@@ -38,7 +38,7 @@ def perfil():
 @post('/resultadoperfil')
 def resultadoperfil():
 	id_perfil = request.forms.get("idperfil")
-	dicc_parametros={'key':'1685786EECBF130267010877BAB447D0','steamids':"76561198095333001"}
+	dicc_parametros={'key':'1685786EECBF130267010877BAB447D0','steamids':id_perfil}
     r = requests.get("http://api.steampowered.com/ISteamUser/GetPlayerSummaries/v0002/", params=dicc_parametros)
     datos = json.loads(r.text.encode("utf-8"))
     try:
