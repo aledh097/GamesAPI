@@ -44,9 +44,10 @@ def resultadoperfil():
     datos = json.loads(r.text.encode("utf-8"))
     try:
         nombre_real= datos["response"]["players"][0]["realname"]
-        
+
     try:
         id=datos["response"]["players"][0]["steamid"]
+        
     try:
         nick=datos["response"]["players"][0]["personaname"]
     try:
