@@ -38,12 +38,7 @@ def perfil():
 @route('/resultadoperfil', method='POST')
 def resultadoperfil():
     id_perfil = request.forms.get("idperfil")
-    dicc_parametros={'key':'1685786EECBF130267010877BAB447D0','steamids':id_perfil}
-    r = requests.get("http://api.steampowered.com/ISteamUser/GetPlayerSummaries/v0002/", params=dicc_parametros)
-    datos = json.loads(r.text.encode("utf-8"))
-    id=datos["response"]["players"][0]["steamid"]
-    nick=datos["response"]["players"][0]["personaname"]
-    return template('resultadoperfil.tpl')
+
 
 # This must be added in order to do correct path lookups for the views
 import os
