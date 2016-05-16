@@ -48,7 +48,14 @@ def resultadoperfil():
     Pais=datos["response"]["players"][0]["loccountrycode"]
     Codigo_del_Estado=datos["response"]["players"][0]["locstatecode"]
     Codigo_de_la_ciudad=datos["response"]["players"][0]["loccityid"]
-    return template('resultadoperfil.tpl',id_perfil=id_perfil,id=id,nick=nick,nombre_real=nombre_real,Avatar=Avatar,Pais=Pais,Codigo_del_Estado=Codigo_del_Estado,Codigo_de_la_ciudad=Codigo_de_la_ciudad)
+    import datetime
+    if datos["response"]["players"][0]["personastate"]==0:
+        estado="Desconectado"
+        ultimo_logeo=(datetime.datetime.fromtimestamp(
+        int(lineas["response"]["players"][0]["lastlogoff"])
+        ).strftime('%Y-%m-%d %H:%M:%S'))
+
+    return template('resultadoperfil.tpl',id_perfil=id_perfil,id=id,nick=nick,nombre_real=nombre_real,Avatar=Avatar,Pais=Pais,Codigo_del_Estado=Codigo_del_Estado,Codigo_de_la_ciudad=Codigo_de_la_ciudad,estado=estado,ultimo_logeo=ultimo_logeo)
 
 # This must be added in order to do correct path lookups for the views
 import os
