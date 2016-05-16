@@ -10,15 +10,12 @@
 <h2><font COLOR=white>Busca su Nick : <a href="https://steamcommunity.com/search/users/
 " ><font color="9a82ff  ">Aqui</a><font COLOR=white> y su ID en el siguiente link :</font><a href="http://www.steam64.com/" ><font color="9a82ff  ">Aqui!</a></font></h2> 
 
-<form method="Post" action="/resultadoperfil"> 
-
-<p align="left"><font COLOR=white face="Tahoma" size="5"><b><i>ID:        <input type="text" name="IDperfil" size="50"> 
- </i></b></font></p> 
-
-<p align="left">  
-<input type="submit" value="Ingresar" name="B1"> 
-<input type="reset" value="Restablecer" name="B2"> 
-</form> 
+<div id="search-form">
+<form class="form-container" action="/info" method="post">
+<input name="idperfil" type="text" class="search-field"/>
+<div class="submit-container">
+<input type="submit" value="Buscar" class="submit" />
+</div>
 
 </p> 
 <br></br>
