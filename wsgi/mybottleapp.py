@@ -31,7 +31,7 @@ def twitter():
 def clan():
     return template('clan.tpl')
 
-@route('/perfil', method='POST')
+@route('/perfil')
 def perfil():
     return template('resultadoperfil.tpl')
 
