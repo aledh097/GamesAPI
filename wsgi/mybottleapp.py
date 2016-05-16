@@ -39,7 +39,8 @@ def perfil():
 def resultadoperfil():
 	id_perfil = request.forms.get("idperfil")
     url="http://api.steampowered.com/ISteamUser/GetPlayerSummaries/v0002/"
-    r = requests.get(url+"?key=1685786EECBF130267010877BAB447D0&steamids="+id_perfil)
+
+    r=requests.get(url+"?key=1685786EECBF130267010877BAB447D0&steamids="+id_perfil)
     datos = json.loads(r.text.encode("utf-8"))
     try:
     	id=datos["response"]["players"][0]["steamid"]
