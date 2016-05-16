@@ -27,13 +27,13 @@ def noticia():
 def twitter():
     return template('twitter.tpl')
 
-@get('/perfil')
-def perfil():
-    return template('perfil.tpl')
-
 @route('/clan')
 def clan():
     return template('clan.tpl')
+
+@get('/perfil')
+def perfil():
+    return template('perfil.tpl')
 
 @post('/resultadoperfil')
 def resultadoperfil():
