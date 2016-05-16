@@ -1,5 +1,4 @@
 from bottle import Bottle,route,default_app,request,template,static_file
-from lxml import etree
 import urllib2
 import requests
 
