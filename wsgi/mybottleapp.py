@@ -31,11 +31,11 @@ def twitter():
 def clan():
     return template('clan.tpl')
 
-@route('/perfil')
+@bottle.get('/perfil')
 def perfil():
     return template('perfil.tpl')
 
-@post('/resultadoperfil')
+@bottle.post('/resultadoperfil')
 def resultadoperfil():
 	id_perfil = request.forms.get("idperfil")
 
