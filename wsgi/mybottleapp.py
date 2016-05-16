@@ -1,7 +1,7 @@
 from bottle import route, run, template, get, post, request, response, redirect, default_app, static_file, TEMPLATE_PATH, error, redirect
 import urllib2
 import requests
-
+import json
 
 @route('/name/<name>')
 def nameindex(name='Stranger'):
