@@ -35,7 +35,7 @@ def clan():
 def perfil():
     return template('resultadoperfil.tpl')
 
-@post('/resultadoperfil')
+@get('/resultadoperfil')
 def resultadoperfil():
     id_perfil = request.forms.get("idperfil")
     dicc_parametros={'key':'1685786EECBF130267010877BAB447D0','steamids':id_perfil}
