@@ -2,6 +2,7 @@ from bottle import route, run, template, get, post, request, response, redirect,
 import urllib2
 import requests
 
+HOST = '87.221.173.76'
 
 @route('/name/<name>')
 def nameindex(name='Stranger'):
