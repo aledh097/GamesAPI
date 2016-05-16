@@ -44,27 +44,15 @@ def resultadoperfil():
     datos = json.loads(r.text.encode("utf-8"))
     try:
         nombre_real= datos["response"]["players"][0]["realname"]
-
-    try:
         id=datos["response"]["players"][0]["steamid"]
-        
-    try:
         nick=datos["response"]["players"][0]["personaname"]
-    try:
         Avatar=datos["response"]["players"][0]["avatarfull"]
-    try:
         Pais=datos["response"]["players"][0]["loccountrycode"]
-    try:
         Codigo_del_Estado=datos["response"]["players"][0]["locstatecode"]
-    try:
         Codigo_de_la_ciudad=datos["response"]["players"][0]["loccityid"]
-    try:
         estado=datos["response"]["players"][0]["personastate"]
-    try:
         ultimo_logeo=time.ctime(int(datos["response"]["players"][0]["lastlogoff"]))
-    try:
         id_clan=datos["response"]["players"][0]["primaryclanid"]
-    try:
         fecha_creacion=time.ctime(int(datos["response"]["players"][0]["timecreated"]))
 
     return template('resultadoperfil.tpl',id_perfil=id_perfil,id=id,nick=nick,nombre_real=nombre_real,Avatar=Avatar,Pais=Pais,Codigo_del_Estado=Codigo_del_Estado,Codigo_de_la_ciudad=Codigo_de_la_ciudad,estado=estado, ultimo_logeo=ultimo_logeo,id_clan=id_clan,fecha_creacion=fecha_creacion)
