@@ -33,7 +33,7 @@ def clan():
 
 @route('/perfil', method = ["POST"])
 def perfil():
-    return template('perfil.tpl')
+    return requests.post('perfil.tpl', verify=False)
 
 @route('/resultadoperfil', method='GET')
 def resultadoperfil():
