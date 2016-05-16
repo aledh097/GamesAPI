@@ -27,7 +27,7 @@ def noticia():
 def twitter():
     return template('twitter.tpl')
 
-@route('/perfil')
+@get('/perfil')
 def perfil():
     return template('perfil.tpl')
 
