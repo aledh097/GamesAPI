@@ -16,7 +16,8 @@
 		<h2><font COLOR=white> Nick: <b2>{{nick}}</b2></font></h2>
 		<h2><font COLOR=white>Avatar:</font></h2> <img src={{Avatar}}>
 		<h2><font COLOR=white> Pais: <b2>{{Pais}}</b2></font></h2>
-
+		<h2><font COLOR=white> Codigo del Estado: <b2>{{Codigo_del_Estado}}</b2></font></h2>
+		<h2><font COLOR=white> Codigo de la ciudad: <b2>{{Codigo_de_la_ciudad}}</b2></font></h2>
 </html>
 
 
