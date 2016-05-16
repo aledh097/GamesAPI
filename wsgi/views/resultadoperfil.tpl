@@ -14,7 +14,9 @@
 		<h2><font COLOR=white> Nombre real: <b2>{{nombre_real}}</b2></font></h2>
 		<h2><font COLOR=white> ID: <b2>{{id}}</b2></font></h2>
 		<h2><font COLOR=white> Nick: <b2>{{nick}}</b2></font></h2>
-		<h2>Avatar:</h2> <img src={{Avatar}}>
+		<h2><font COLOR=white>Avatar:</font></h2> <img src={{Avatar}}>
+		<h2><font COLOR=white> Pais: <b2>{{Pais}}</b2></font></h2>
+
 </html>
 
 

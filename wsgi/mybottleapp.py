@@ -45,7 +45,8 @@ def resultadoperfil():
     id=datos["response"]["players"][0]["steamid"]
     nick=datos["response"]["players"][0]["personaname"]
     Avatar=datos["response"]["players"][0]["avatarfull"]
-    return template('resultadoperfil.tpl',id_perfil=id_perfil,id=id,nick=nick,nombre_real=nombre_real,Avatar=Avatar)
+    Pais=datos["response"]["players"][0]["loccountrycode"]
+    return template('resultadoperfil.tpl',id_perfil=id_perfil,id=id,nick=nick,nombre_real=nombre_real,Avatar=Avatar,Pais=Pais)
 
 # This must be added in order to do correct path lookups for the views
 import os
