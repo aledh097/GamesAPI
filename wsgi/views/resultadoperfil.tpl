@@ -14,7 +14,6 @@
 		<h2><font COLOR=white> Nombre real: <b2>{{nombre_real}}</b2></font></h2>
 		<h2><font COLOR=white> ID: <b2>{{id}}</b2></font></h2>
 		<h2><font COLOR=white> Nick: <b2>{{nick}}</b2></font></h2>
-		<h2>Avatar: <img src= {{Avatar}} </img></h2>
 	</body>	
 </html>
 
