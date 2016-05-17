@@ -50,8 +50,14 @@ def resultadoperfil():
         id= datos["response"]["players"][0]["steamid"]    
     except IOError:
         id="no disponible"
-    nick=datos["response"]["players"][0]["personaname"]
-    Avatar=datos["response"]["players"][0]["avatarfull"]
+    try:
+        nick=datos["response"]["players"][0]["personaname"]   
+    except IOError:
+        nick="no disponible"
+    try:
+        Avatar=datos["response"]["players"][0]["avatarfull"]
+    except IOError:
+        Avatar="no disponible"
     Pais=datos["response"]["players"][0]["loccountrycode"]
     Codigo_del_Estado=datos["response"]["players"][0]["locstatecode"]
     Codigo_de_la_ciudad=datos["response"]["players"][0]["loccityid"]
