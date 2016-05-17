@@ -206,7 +206,7 @@ html {
 }
 
 html {
-  background: url("http://fotos.subefotos.com/1aa8e7ae0ea5b3b37cc42df36de492b7o.jpg") no-repeat center center fixed;
+  background: url("/static/images/indexcss-1.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
