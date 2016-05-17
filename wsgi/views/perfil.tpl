@@ -16,13 +16,14 @@
 <div class="submit-container">
 <br></br>
 <input type="submit" value="Buscar" class="submit" />
+<input type="reset" value="Restablecer" name="B2">
 </div>
 
 </p> 
 <br></br>
 <b2><p align="left"><font face="Tahoma" size="2">Buscador de perfiles para steam 2016</font></p></b2>
 <br></br>
-<h3><font color=white> Usuario de prueba: 76561198192569242, 76561198124490617, 76561198095333001 </font></h3>
+<h3><font color=white> Usuarios de prueba: 76561198192569242, 76561198124490617, 76561198095333001 </font></h3>
 
 <div id="botones"> 
 <a href="http://gamesapi-hezparust.rhcloud.com/"><img class="inicio" src="/static/images/perfil1.png" onmouseover="this.style.opacity=1;this.filters.alpha.opacity='100';" onmouseout="this.style.opacity=0.8;this.filters.alpha.opacity='20';"/></a> 
