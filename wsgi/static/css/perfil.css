@@ -24,7 +24,7 @@ html {
 
 #botones{ 
 position: relative;
-top: 520px;
+top: 420px;
 left: 10px;
 display: block; 
 margin: 0px auto; 
@@ -39,7 +39,7 @@ background: url("/static/images/perfilcss-2.png") no-repeat;
 
 .inicio2{ 
 position: relative;
-top: -580px;
+top: -480px;
 left: 100px;
 width: 60px; 
 height: 60px; 
