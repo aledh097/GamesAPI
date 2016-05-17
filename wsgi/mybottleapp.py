@@ -46,7 +46,10 @@ def resultadoperfil():
         nombre_real= datos["response"]["players"][0]["realname"]    
     except IOError:
         nombre_real="no disponible"
-    id=datos["response"]["players"][0]["steamid"]
+    try:
+        id= datos["response"]["players"][0]["steamid"]    
+    except IOError:
+        id="no disponible"
     nick=datos["response"]["players"][0]["personaname"]
     Avatar=datos["response"]["players"][0]["avatarfull"]
     Pais=datos["response"]["players"][0]["loccountrycode"]
