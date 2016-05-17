@@ -10,13 +10,13 @@
 	<body>
 		<div class="enjoy-css">STEAM</div>
 		<div id="main" method="post" action="">
-    	<a href="perfil"><img src="http://fotos.subefotos.com/c7db0189dd0bf7cf2426193e1edfc588o.jpg" onmouseover="this.style.opacity=1;this.filters.alpha.opacity='100';" onmouseout="this.style.opacity=0.8;this.filters.alpha.opacity='20';" border="0" alt="Link to this page" width="400" height="248" align="left" id="Smarty" /></a>
+    	<a href="perfil"><img src="/static/images/steam1.jpg" onmouseover="this.style.opacity=1;this.filters.alpha.opacity='100';" onmouseout="this.style.opacity=0.8;this.filters.alpha.opacity='20';" border="0" alt="Link to this page" width="400" height="248" align="left" id="Smarty" /></a>
 		</div>
 		<div id="box" method="post" action="">
-    	<a href="noticia"><img id="Form" src="http://fotos.subefotos.com/062038761caef1396034be825a012c54o.jpg" onmouseover="this.style.opacity=1;this.filters.alpha.opacity='100';" onmouseout="this.style.opacity=0.8;this.filters.alpha.opacity='20';" border="0" alt="Link to this page" width="400" height="248"/></a>
+    	<a href="noticia"><img id="Form" src="/static/images/steam2.jpg" onmouseover="this.style.opacity=1;this.filters.alpha.opacity='100';" onmouseout="this.style.opacity=0.8;this.filters.alpha.opacity='20';" border="0" alt="Link to this page" width="400" height="248"/></a>
     	</div>
     	<div id="botones"> 
-		<a href="/"><img class="inicio" src="http://findicons.com/files/icons/1193/litho_system/256/home.png" onmouseover="this.style.opacity=1;this.filters.alpha.opacity='100';" onmouseout="this.style.opacity=0.8;this.filters.alpha.opacity='20';"/></a> 
+		<a href="/"><img class="inicio" src="/static/images/steam3.png" onmouseover="this.style.opacity=1;this.filters.alpha.opacity='100';" onmouseout="this.style.opacity=0.8;this.filters.alpha.opacity='20';"/></a> 
 		</div> 
 	</body>	
 </html>

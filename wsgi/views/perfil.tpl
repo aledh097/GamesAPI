@@ -23,9 +23,9 @@
 <b2><p align="left"><font face="Tahoma" size="2">Buscador de perfiles para steam 2016</font></p></b2>
 
 <div id="botones"> 
-<a href="http://gamesapi-hezparust.rhcloud.com/"><img class="inicio" src="http://findicons.com/files/icons/1193/litho_system/256/home.png" onmouseover="this.style.opacity=1;this.filters.alpha.opacity='100';" onmouseout="this.style.opacity=0.8;this.filters.alpha.opacity='20';"/></a> 
+<a href="http://gamesapi-hezparust.rhcloud.com/"><img class="inicio" src="/static/images/perfil1.png" onmouseover="this.style.opacity=1;this.filters.alpha.opacity='100';" onmouseout="this.style.opacity=0.8;this.filters.alpha.opacity='20';"/></a> 
 <div id="botones"> 
-<a href="http://gamesapi-hezparust.rhcloud.com/steam"><img class="inicio2" src="http://publicdomainvectors.org/photos/jean_victor_balin_arrow_orange_left.png" onmouseover="this.style.opacity=1;this.filters.alpha.opacity='100';" onmouseout="this.style.opacity=0.8;this.filters.alpha.opacity='20';"/></a> 
+<a href="http://gamesapi-hezparust.rhcloud.com/steam"><img class="inicio2" src="/static/images/perfil2.png" onmouseover="this.style.opacity=1;this.filters.alpha.opacity='100';" onmouseout="this.style.opacity=0.8;this.filters.alpha.opacity='20';"/></a> 
 </div> 
 </body> 
 </html> 

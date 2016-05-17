@@ -32,9 +32,9 @@
 <b2><p align="right"><font color=white face="Tahoma" size="4">Trofeos de clan 2016</font></p></b2>
 
 <div id="botones"> 
-<a href="/"><img class="inicio" src="http://findicons.com/files/icons/770/token_dark/256/home.png" onmouseover="this.style.opacity=1;this.filters.alpha.opacity='100';" onmouseout="this.style.opacity=0.8;this.filters.alpha.opacity='20';"/></a> 
+<a href="/"><img class="inicio" src="/static/images/clan1.png" onmouseover="this.style.opacity=1;this.filters.alpha.opacity='100';" onmouseout="this.style.opacity=0.8;this.filters.alpha.opacity='20';"/></a> 
 <div id="botones"> 
-<a href="/coc"><img class="inicio2" src="http://findicons.com/files/icons/977/rrze/720/left_grey.png" onmouseover="this.style.opacity=1;this.filters.alpha.opacity='100';" onmouseout="this.style.opacity=0.8;this.filters.alpha.opacity='20';"/></a> 
+<a href="/coc"><img class="inicio2" src="/static/images/clan2.png" onmouseover="this.style.opacity=1;this.filters.alpha.opacity='100';" onmouseout="this.style.opacity=0.8;this.filters.alpha.opacity='20';"/></a> 
 </div> 
 
 
