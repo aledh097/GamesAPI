@@ -68,7 +68,7 @@ def resultadoperfil():
         Codigo_del_Estado="no disponible"
     try:
         Codigo_de_la_ciudad=datos["response"]["players"][0]["loccityid"]
-    except IOError:
+    else:
         Codigo_de_la_ciudad="no disponible"
     try:
         estado=datos["response"]["players"][0]["personastate"]
