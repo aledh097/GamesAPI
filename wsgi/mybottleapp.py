@@ -44,47 +44,47 @@ def resultadoperfil():
     datos = json.loads(r.text.encode("utf-8"))
     try:
         nombre_real= datos["response"]["players"][0]["realname"]    
-    except IOError:
+    except:
         nombre_real="no disponible"
     try:
         id= datos["response"]["players"][0]["steamid"]    
-    except IOError:
+    except:
         id="no disponible"
     try:
         nick=datos["response"]["players"][0]["personaname"]   
-    except IOError:
+    except:
         nick="no disponible"
     try:
         Avatar=datos["response"]["players"][0]["avatarfull"]
-    except IOError:
+    except:
         Avatar="no disponible"
     try:
         Pais=datos["response"]["players"][0]["loccountrycode"]
-    except IOError:
+    except:
         Pais="no disponible"
     try:
         Codigo_del_Estado=datos["response"]["players"][0]["locstatecode"]
-    except IOError:
+    except:
         Codigo_del_Estado="no disponible"
     try:
         Codigo_de_la_ciudad=datos["response"]["players"][0]["loccityid"]
-    except IOError:
+    except:
         Codigo_de_la_ciudad="no disponible"
     try:
         estado=datos["response"]["players"][0]["personastate"]
-    except IOError:
+    except:
         estado="no disponible"
     try:
         ultimo_logeo=time.ctime(int(datos["response"]["players"][0]["lastlogoff"]))
-    except IOError:
+    except:
         ultimo_logeo="no disponible"
     try:
         id_clan=datos["response"]["players"][0]["primaryclanid"]
-    except IOError:
+    except:
         id_clan="no disponible"
     try:
         fecha_creacion=time.ctime(int(datos["response"]["players"][0]["timecreated"]))
-    except IOError:
+    except:
         fecha_creacion="no disponible"
     return template('resultadoperfil.tpl',id_perfil=id_perfil,id=id,nick=nick,nombre_real=nombre_real,Avatar=Avatar,Pais=Pais,Codigo_del_Estado=Codigo_del_Estado,Codigo_de_la_ciudad=Codigo_de_la_ciudad,estado=estado,ultimo_logeo=ultimo_logeo,id_clan=id_clan,fecha_creacion=fecha_creacion)
 
