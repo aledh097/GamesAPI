@@ -58,13 +58,34 @@ def resultadoperfil():
         Avatar=datos["response"]["players"][0]["avatarfull"]
     except IOError:
         Avatar="no disponible"
-    Pais=datos["response"]["players"][0]["loccountrycode"]
-    Codigo_del_Estado=datos["response"]["players"][0]["locstatecode"]
-    Codigo_de_la_ciudad=datos["response"]["players"][0]["loccityid"]
-    estado=datos["response"]["players"][0]["personastate"]
-    ultimo_logeo=time.ctime(int(datos["response"]["players"][0]["lastlogoff"]))
-    id_clan=datos["response"]["players"][0]["primaryclanid"]
-    fecha_creacion=time.ctime(int(datos["response"]["players"][0]["timecreated"]))
+    try:
+        Pais=datos["response"]["players"][0]["loccountrycode"]
+    except IOError:
+        Pais="no disponible"
+    try:
+        Codigo_del_Estado=datos["response"]["players"][0]["locstatecode"]
+    except IOError:
+        Codigo_del_Estado="no disponible"
+    try:
+        Codigo_de_la_ciudad=datos["response"]["players"][0]["loccityid"]
+    except IOError:
+        Codigo_de_la_ciudad="no disponible"
+    try:
+        estado=datos["response"]["players"][0]["personastate"]
+    except IOError:
+        estado="no disponible"
+    try:
+        ultimo_logeo=time.ctime(int(datos["response"]["players"][0]["lastlogoff"]))
+    except IOError:
+        ultimo_logeo="no disponible"
+    try:
+        id_clan=datos["response"]["players"][0]["primaryclanid"]
+    except IOError:
+        id_clan="no disponible"
+    try:
+        fecha_creacion=time.ctime(int(datos["response"]["players"][0]["timecreated"]))
+    except IOError:
+        fecha_creacion="no disponible"
     return template('resultadoperfil.tpl',id_perfil=id_perfil,id=id,nick=nick,nombre_real=nombre_real,Avatar=Avatar,Pais=Pais,Codigo_del_Estado=Codigo_del_Estado,Codigo_de_la_ciudad=Codigo_de_la_ciudad,estado=estado,ultimo_logeo=ultimo_logeo,id_clan=id_clan,fecha_creacion=fecha_creacion)
 
 # This must be added in order to do correct path lookups for the views
