@@ -8,7 +8,7 @@ b2 {
 
 
 html {
-  background: url("http://www.kinkasischild.org/wp-content/uploads/2016/01/ClashofClans-e1451867518880.jpg") no-repeat center center fixed;
+  background: "/static/images/clancss-1.jpg" no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -27,7 +27,7 @@ padding: 0px;
 .inicio{ 
 width: 60px; 
 height: 60px; 
-background: url("http://findicons.com/files/icons/770/token_dark/256/home.png") no-repeat; 
+background: "/static/images/clancss-2.png" no-repeat; 
 } 
 
 .inicio2{ 
@@ -36,7 +36,7 @@ top: -70px;
 left: 60px;
 width: 60px; 
 height: 60px; 
-background: url("http://findicons.com/files/icons/977/rrze/720/left_grey.png") no-repeat; 
+background: "/static/images/clancss-3.png" no-repeat; 
 } 
 
 div.transbox {
