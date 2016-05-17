@@ -11,13 +11,15 @@
 " ><font color="9a82ff  ">Aqui!</a></font></h2> 
 <form method="Post" action="ingreso.asp"> 
 
-<p align="left"><font COLOR=white face="Tahoma" size="5"><b><i>AppID:        <input type="text" name="Dato1" size="50"> 
- </i></b></font></p> 
-
-<p align="left">  
-<input type="submit" value="Ingresar" name="B1"> 
-<input type="reset" value="Restablecer" name="B2"> 
-</form> 
+<h3><font COLOR=white>AppID:</font></h3>
+<div id="search-form">
+<form class="form-container" action="/resultadoperfil" method="post">
+<input name="idperfil" type="text" class="search-field"/>
+<div class="submit-container">
+<br></br>
+<input type="submit" value="Buscar" class="submit" />
+<input type="reset" value="Restablecer" name="B2">
+</div>
 
 </p> 
 <br></br>
