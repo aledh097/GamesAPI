@@ -10,7 +10,7 @@
 	<body>
 		<div class="enjoy-css">STEAM</div>
 		<div id="main" method="post" action="">
-    	<a href="perfil"><img src="/static/images/steam1.jpg" onmouseover="this.style.opacity=1;this.filters.alpha.opacity='100';" onmouseout="this.style.opacity=0.8;this.filters.alpha.opacity='20';" border="0" alt="Link to this page" width="400" height="248" align="left" id="Smarty" /></a>
+    	<a href="perfilopciones"><img src="/static/images/steam1.jpg" onmouseover="this.style.opacity=1;this.filters.alpha.opacity='100';" onmouseout="this.style.opacity=0.8;this.filters.alpha.opacity='20';" border="0" alt="Link to this page" width="400" height="248" align="left" id="Smarty" /></a>
 		</div>
 		<div id="box" method="post" action="">
     	<a href="noticia"><img id="Form" src="/static/images/steam2.jpg" onmouseover="this.style.opacity=1;this.filters.alpha.opacity='100';" onmouseout="this.style.opacity=0.8;this.filters.alpha.opacity='20';" border="0" alt="Link to this page" width="400" height="248"/></a>
