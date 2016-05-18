@@ -89,7 +89,7 @@ def resultadoperfil():
     return template('resultadoperfil.tpl',id_perfil=id_perfil,id=id,nick=nick,nombre_real=nombre_real,Avatar=Avatar,Pais=Pais,Codigo_del_Estado=Codigo_del_Estado,Codigo_de_la_ciudad=Codigo_de_la_ciudad,estado=estado,ultimo_logeo=ultimo_logeo,id_clan=id_clan,fecha_creacion=fecha_creacion)
 
 @route('/resultadoperfil2', method='POST')
-def resultadoperfil():
+def resultadoperfil2():
     nick = request.forms.get("nick")
     dicc_parametros2={'key':'1685786EECBF130267010877BAB447D0','vanityurl':nick}
     r2 = requests.get("http://api.steampowered.com/ISteamUser/ResolveVanityURL/v0001/", params=dicc_parametros2)
