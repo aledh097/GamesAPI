@@ -19,14 +19,15 @@
 <input type="reset" value="Restablecer" name="B2">
 </div>
 <h3><font COLOR=white>Ó</font></h3>
-<div id="s2">
+
+<div id="d1">
 <h3><font COLOR=white>NICK:</font></h3>
-<form class="form-container2" action2="/resultadoperfil2" method="post">
-<input name="nick" type="text" class="search-field2"/>
-<div class="submit-container2">
+<form class="d2" action2="/resultadoperfil2" method="post2">
+<input name="nick" type="text" class="d3"/>
+<div class="d4">
 <br></br>
-<input type="submit" value="Buscar" class="submit" />
-<input type="reset" value="Restablecer" name="B2">
+<input type="submit2" value="Buscar2" class="submit2" />
+<input type="reset2" value="Restablecer2" name="B22">
 </div>
 
 </p> 
