@@ -21,8 +21,8 @@
 <h3><font COLOR=white>Ó</font></h3>
 <div id="search-form">
 <h3><font COLOR=white>NICK:</font></h3>
-<form class="form-container" action="/resultadoperfil" method="post">
-<input name="idperfil" type="text" class="search-field"/>
+<form class="form-container" action="/resultadoperfil2" method="post">
+<input name="nick" type="text" class="search-field"/>
 <div class="submit-container">
 <br></br>
 <input type="submit" value="Buscar" class="submit" />
