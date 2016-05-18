@@ -12,6 +12,11 @@
 <h3><font COLOR=white>NICK:</font></h3>
 <form class="form-container" action="/resultadoperfil2" method="post">
 <input name="nick" type="text" class="search-field"/>
+<div class="submit-container">
+<br></br>
+<input type="submit" value="Buscar" class="submit" />
+<input type="reset" value="Restablecer" name="B2">
+</div>
 
 </p> 
 <br></br>
