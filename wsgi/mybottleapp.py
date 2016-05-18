@@ -36,6 +36,10 @@ def clan():
 def perfil():
     return template('perfil.tpl')
 
+@route('/perfilopciones')
+def perfil():
+    return template('perfilopciones.tpl')
+
 @route('/resultadoperfil', method='POST')
 def resultadoperfil():
     id_perfil = request.forms.get("idperfil")
