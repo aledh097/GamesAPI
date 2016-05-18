@@ -14,7 +14,6 @@ function generateReportB(){
 <title>Buscador de ultima noticia</title> 
 <link rel="stylesheet" href="/static/css/perfil.css" />
 </head> 
-</html>
 
 <body> 
 <h1><font COLOR=white>Buscar perfil de un jugador de Steam en concreto mediante su "ID/NICK"</font></h1>
@@ -23,7 +22,7 @@ function generateReportB(){
 <div id="search-form">
 <h3><font COLOR=white>ID:</font></h3>
 <form class="form-container" formaction="/resultadoperfil" action="/resultadoperfil" method="post">
-<input name="idperfil" type="text" class="search-field"/>
+<input type="button" name="id_perfil"  value="A"   onclick="generateReportA();" />
 <div class="submit-container">
 <br></br>
 <input type="submit" value="Buscar" class="submit" />
@@ -33,13 +32,8 @@ function generateReportB(){
 
 <form formaction="/resultadoperfil2" action="/resultadoperfil2" method="get">
   NICK: <input type="text" name="nick"><br>
-  <button type="submit">Buscar</button>
-</form>
+<input type="button" name="submit_reportD"  value="B"   onclick="generateReportB();" /></form>
 
-<form name="search_form_results" action="/resultadoperfil" method="POST">
-  <input type="submit" name="submit_report"  value="A"/>
-      <input type="button" name="submit_reportD"  value="Generate a Report for Dean"   onclick="generateReportA();" />
-            <input type="button" name="submit_reportA"  value="Generate a Report for ACS"  onclick="generateReportB();" />
 </form>
 
 </p> 
