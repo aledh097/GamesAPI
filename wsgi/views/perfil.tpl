@@ -20,17 +20,10 @@
 </div>
 <h3><font COLOR=white>Ó</font></h3>
 
-<!DOCTYPE html>
-<html>
-<body>
-
 <form action="/resultadoperfil2" method="get">
   NICK: <input type="text" name="nick"><br>
   <button type="submit">Buscar</button>
 </form>
-
-</body>
-</html>
 
 
 </p> 
