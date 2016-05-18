@@ -22,7 +22,7 @@
 
 <div id="d1">
 <h3><font COLOR=white>NICK:</font></h3>
-<form class="d2" action2="/resultadoperfil2" method="post">
+<form class="d2" action="/resultadoperfil2" method="post">
 <input name="nick" type="text" class="d3"/>
 <div class="d4">
 <br></br>
