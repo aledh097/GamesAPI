@@ -96,7 +96,7 @@ def resultadoperfil2():
     datos2 = json.loads(r2.text.encode("utf-8"))
     id_nick=datos2["response"]["steamid"]
     dicc_parametros3={'key':'1685786EECBF130267010877BAB447D0','steamids':id_nick}
-    r3 = requests.get("http://api.steampowered.com/ISteamUser/GetPlayerSummaries/v0002/", params=dicc_parametros)
+    r3 = requests.get("http://api.steampowered.com/ISteamUser/GetPlayerSummaries/v0002/", params=dicc_parametros3)
     datos2 = json.loads(r3.text.encode("utf-8"))
     try:
         nombre_real= datos2["response"]["players"][0]["realname"]    
