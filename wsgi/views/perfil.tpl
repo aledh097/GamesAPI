@@ -11,7 +11,7 @@
 " ><font color="9a82ff  ">Aqui</a><font COLOR=white> 
 <div id="search-form">
 <h3><font COLOR=white>ID:</font></h3>
-<form class="form-container" action="/resultadoperfil" method="post">
+<form class="form-container" formaction="/resultadoperfil" method="post">
 <input name="idperfil" type="text" class="search-field"/>
 <div class="submit-container">
 <br></br>
@@ -20,7 +20,7 @@
 </div>
 <h3><font COLOR=white>Ó</font></h3>
 
-<form action="/resultadoperfil2" method="get">
+<form formaction="/resultadoperfil2" method="get">
   NICK: <input type="text" name="nick"><br>
   <button type="submit">Buscar</button>
 </form>
