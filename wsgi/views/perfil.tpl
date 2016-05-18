@@ -22,7 +22,7 @@ function generateReportB(){
 <div id="search-form">
 <h3><font COLOR=white>ID:</font></h3>
 <form class="form-container" formaction="/resultadoperfil" action="/resultadoperfil" method="post">
-<input type="button" name="id_perfil"  value="A"   onclick="generateReportA();" />
+<input type="submit" name="id_perfil"  value="Buscar"   onclick="generateReportA();" />
 <div class="submit-container">
 <br></br>
 <input type="submit" value="Buscar" class="submit" />
@@ -32,7 +32,7 @@ function generateReportB(){
 
 <form formaction="/resultadoperfil2" action="/resultadoperfil2" method="get">
   NICK: <input type="text" name="nick"><br>
-<input type="button" name="submit_reportD"  value="B"   onclick="generateReportB();" /></form>
+<input type="submit" name="submit_reportD"  value="Buscar"   onclick="generateReportB();" /></form>
 
 </form>
 
