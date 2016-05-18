@@ -32,19 +32,15 @@ def twitter():
 def clan():
     return template('clan.tpl')
 
-@route('/perfil', method = ["GET"])
-def perfil():
-    return template('perfil.tpl')
-
 @route('/perfilopciones')
 def perfil():
     return template('perfilopciones.tpl')
 
-@route('/opcionid')
+@route('/opcionid', method = ["GET"])
 def perfil():
     return template('opcionid.tpl')
 
-@route('/opcionnick')
+@route('/opcionnick', method = ["GET"])
 def perfil():
     return template('opcionnick.tpl')
 
