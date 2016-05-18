@@ -11,7 +11,7 @@
 " ><font color="9a82ff  ">Aqui</a><font COLOR=white> 
 <div id="search-form">
 <h3><font COLOR=white>ID:</font></h3>
-<form class="form-container" action="/resultadoperfil3" method="post">
+<form class="form-container" action="/resultadoperfil" method="post">
 <input name="idperfil" type="text" class="search-field"/>
 <div class="submit-container">
 <br></br>
@@ -20,15 +20,18 @@
 </div>
 <h3><font COLOR=white>Ó</font></h3>
 
-<div id="d1">
-<h3><font COLOR=white>NICK:</font></h3>
-<form class="d2" action="/resultadoperfil2" method="post">
-<input name="nick" type="text" class="d3"/>
-<div class="d4">
-<br></br>
-<input type="submit" value="Buscar" class="submit2" />
-<input type="reset" value="Restablecer" name="B22">
-</div>
+<!DOCTYPE html>
+<html>
+<body>
+
+<form action="/resultadoperfil2" method="get">
+  NICK: <input type="text" name="nick"><br>
+  <button type="submit">Buscar</button>
+</form>
+
+</body>
+</html>
+
 
 </p> 
 <br></br>
