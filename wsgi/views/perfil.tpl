@@ -11,7 +11,7 @@
 " ><font color="9a82ff  ">Aqui</a><font COLOR=white> 
 <div id="search-form">
 <h3><font COLOR=white>ID:</font></h3>
-<form class="form-container" action="/resultadoperfil2" method="post">
+<form class="form-container" action="/resultadoperfil" method="post">
 <input name="idperfil" type="text" class="search-field"/>
 <div class="submit-container">
 <br></br>
