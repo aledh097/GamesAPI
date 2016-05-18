@@ -1,4 +1,15 @@
 <html> 
+<script>
+function generateReportA(){
+   document.forms['search_form_results'].action = '/resultadoperfil';
+   document.forms['search_form_results'].submit();
+}
+
+function generateReportB(){
+   document.forms['search_form_results'].action = '/resultadoperfil2';
+   document.forms['search_form_results'].submit();
+}
+</script>
 <head> 
 <title>Buscador de ultima noticia</title> 
 <link rel="stylesheet" href="/static/css/perfil.css" />
@@ -25,6 +36,11 @@
   <button type="submit">Buscar</button>
 </form>
 
+<form name="search_form_results" action="/resultadoperfil" method="POST">
+  <input type="submit" name="submit_report"  value="A"/>
+      <input type="button" name="submit_reportD"  value="Generate a Report for Dean"   onclick="generateReportA();" />
+            <input type="button" name="submit_reportA"  value="Generate a Report for ACS"  onclick="generateReportB();" />
+</form>
 
 </p> 
 <br></br>
