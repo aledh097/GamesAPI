@@ -26,8 +26,8 @@
 <input name="nick" type="text" class="d3"/>
 <div class="d4">
 <br></br>
-<input type="submit" value="Buscar2" class="submit2" />
-<input type="reset" value="Restablecer2" name="B22">
+<input type="submit" value="Buscar" class="submit2" />
+<input type="reset" value="Restablecer" name="B22">
 </div>
 
 </p> 
