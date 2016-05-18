@@ -40,6 +40,14 @@ def perfil():
 def perfil():
     return template('perfilopciones.tpl')
 
+@route('/opcionid')
+def perfil():
+    return template('opcionid.tpl')
+
+@route('/opcionnick')
+def perfil():
+    return template('opcionnick.tpl')
+
 @route('/resultadoperfil', method='POST')
 def resultadoperfil():
     id_perfil = request.forms.get("idperfil")
