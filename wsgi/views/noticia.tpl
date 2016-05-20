@@ -9,7 +9,7 @@
 <h1><font COLOR=white>Buscar la ultima noticia de un juego en concreto mediante su "appid"</font></h1>
 <h2><font COLOR=white>Busca su appid en el siguiente link: <a href="https://steamdb.info/search/?a=sub
 " ><font color="9a82ff  ">Aqui!</a></font></h2> 
-<form method="Post" action="ingreso.asp"> 
+<form method="Post" action="/resultadonoticia"> 
 
 <h3><font COLOR=white>AppID:</font></h3>
 <div id="search-form">
