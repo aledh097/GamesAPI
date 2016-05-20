@@ -158,8 +158,8 @@ def resultadonoticia():
     dicc_parametros4={'appid':id_juego}
     r4 = requests.get("http://api.steampowered.com/ISteamNews/GetNewsForApp/v0002/", params=dicc_parametros4)
     datos3 = json.loads(r4.text.encode("utf-8"))
-    titulo=datos3["appnews"]["newsitems"][0]["title"]
-    detalles=datos3["appnews"]["newsitems"][0]["contents"]
+    titulo=datos3["appnews"]["newsitems"][1]["title"]
+    detalles=datos3["appnews"]["newsitems"][1]["contents"]
     return template('resultadonoticia.tpl', titulo=titulo, detalles=detalles)
 
 # This must be added in order to do correct path lookups for the views
