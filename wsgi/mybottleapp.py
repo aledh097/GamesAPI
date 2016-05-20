@@ -156,7 +156,6 @@ def resultadoperfil2():
 @route('/resultadonoticia', method='POST')
 def resultadonoticia():
     nombrejuego = request.forms.get("nombrejuego")
-    nombre=raw_input("nombre: ")
     r=requests.get("http://api.steampowered.com/ISteamApps/GetAppList/v0002/")
     lineas=json.loads(r.text)
     fichero=lineas["applist"]["apps"]
