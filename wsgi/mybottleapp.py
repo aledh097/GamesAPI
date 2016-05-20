@@ -155,8 +155,15 @@ def resultadoperfil2():
 
 @route('/resultadonoticia', method='POST')
 def resultadonoticia():
-    id_juego = request.forms.get("idjuego")
-    dicc_parametros4={'appid':id_juego}
+    nombrejuego = request.forms.get("nombrejuego")
+    nombre=raw_input("nombre: ")
+    r=requests.get("http://api.steampowered.com/ISteamApps/GetAppList/v0002/")
+    lineas=json.loads(r.text)
+    fichero=lineas["applist"]["apps"]
+    for f in fichero:
+        if f["name"]==nombrejuego:
+            id_juego_nombre=f["appid"]
+    dicc_parametros4={'appid':id_juego_nombre}
     r4 = requests.get("http://api.steampowered.com/ISteamNews/GetNewsForApp/v0002/", params=dicc_parametros4)
     datos3 = json.loads(r4.text.encode("utf-8"))
     titulo=datos3["appnews"]["newsitems"][0]["title"]
@@ -169,4 +176,3 @@ import os
 TEMPLATE_PATH.append(os.path.join(os.environ['OPENSHIFT_REPO_DIR'], 'wsgi/views/')) 
 
 application=default_app()
-
