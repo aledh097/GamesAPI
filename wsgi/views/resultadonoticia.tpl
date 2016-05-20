@@ -12,8 +12,7 @@
 		<h2 align="center"><font COLOR=white> Titulo: <b2>{{titulo}}</b2></font></h2>
 		<h2 align="center"><font COLOR=white> Detalles: <font COLOR=white></font>
 		<?php
-		$str = {{detalles}};
-		echo htmlspecialchars($str);
+		htmlspecialchars({{detalles}});
 		?>	
 	</body>	
 </html>
