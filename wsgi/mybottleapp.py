@@ -154,7 +154,13 @@ def resultadoperfil2():
 
 @route('/resultadonoticia', method='POST')
 def resultadonoticia():
-    return template('resultadonoticia.tpl')
+    id_juego = request.forms.get("idjuego")
+    dicc_parametros4={'appid':id_juego}
+    r4 = requests.get("http://api.steampowered.com/ISteamNews/GetNewsForApp/v0002/", params=dicc_parametros4)
+    datos3 = json.loads(r4.text.encode("utf-8"))
+    titulo=datos3["appnews"]["newsitems"][0]["gid"]
+    detalles=datos3["appnews"]["newsitems"][0]["contents"]
+    return template('resultadonoticia.tpl', titulo=titulo, detalles=detalles)
 
 # This must be added in order to do correct path lookups for the views
 import os
