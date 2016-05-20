@@ -2,6 +2,7 @@
 
 <html lang="en">
 	<head>
+		<link rel="shortcut icon" type="image/x-icon" href="http://pro100-contra.ucoz.ru/_ld/2/37459936.png" />
 		<title>TWITTER</title>
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">

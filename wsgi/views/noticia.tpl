@@ -1,5 +1,6 @@
 <html> 
 <head> 
+<link rel="shortcut icon" type="image/x-icon" href="http://pro100-contra.ucoz.ru/_ld/2/37459936.png" />
 <title>Buscador de ultima noticia</title> 
 <link rel="stylesheet" href="/static/css/noticia-css.css" />
 </head> 
