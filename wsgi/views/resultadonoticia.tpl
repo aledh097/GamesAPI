@@ -2,10 +2,11 @@
 
 <html lang="en">
 	<head>
+		<link rel="shortcut icon" type="image/x-icon" href="/images/icon1.ico" />
 		<title>Ultima noticia</title>
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-		<link rel="stylesheet" href="/static/css/resultadonoticia.css" />
+		<link rel="stylesheet" href="http://pro100-contra.ucoz.ru/_ld/2/37459936.png"/>
 	</head>
 	<body>
 		<h1 align="center"><font COLOR=white>Ultima noticia: </font></h1>
