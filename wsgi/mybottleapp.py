@@ -161,7 +161,8 @@ def resultadonoticia():
     datos3 = json.loads(r4.text.encode("utf-8"))
     titulo=datos3["appnews"]["newsitems"][1]["title"]
     detalles=datos3["appnews"]["newsitems"][1]["contents"]
-    return template('resultadonoticia.tpl', titulo=titulo, detalles=detalles)
+    detallesutf8=detalles.encode("utf-8")
+    return template('resultadonoticia.tpl', titulo=titulo, detalles=detallesutf8)
 
 # This must be added in order to do correct path lookups for the views
 import os
