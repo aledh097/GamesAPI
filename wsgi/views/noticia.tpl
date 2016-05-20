@@ -13,7 +13,7 @@
 
 <h3><font COLOR=white>AppID:</font></h3>
 <div id="search-form">
-<form class="form-container" action="/resultadoperfil" method="post">
+<form class="form-container" action="/resultadonoticia" method="post">
 <input name="idperfil" type="text" class="search-field"/>
 <div class="submit-container">
 <br></br>
