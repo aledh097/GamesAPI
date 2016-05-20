@@ -20,7 +20,7 @@ def coc():
 def steam():
     return template('steam.tpl')
 
-@route('/noticia')
+@route('/noticia', method = ["GET"]) 
 def noticia():
     return template('noticia.tpl')
 
@@ -152,8 +152,13 @@ def resultadoperfil2():
         fecha_creacion="no disponible"
     return template('resultadoperfil2.tpl',id_perfil=id_nick,id=id,nick=nick,nombre_real=nombre_real,Avatar=Avatar,Pais=Pais,Codigo_del_Estado=Codigo_del_Estado,Codigo_de_la_ciudad=Codigo_de_la_ciudad,estado=estado,ultimo_logeo=ultimo_logeo,id_clan=id_clan,fecha_creacion=fecha_creacion)
 
+@route('/resultadonoticia', method='POST')
+def resultadonoticia():
+    return template('resultadonoticia.tpl')
+
 # This must be added in order to do correct path lookups for the views
 import os
 TEMPLATE_PATH.append(os.path.join(os.environ['OPENSHIFT_REPO_DIR'], 'wsgi/views/')) 
 
 application=default_app()
+
