@@ -16,7 +16,7 @@
 
 <div class="background">
   <div class="transbox">
-    <p>En esta caja iran los datos :D.</p>
+    <h1><p>En esta caja iran los datos :D.</p></h1>
     <p>En esta caja iran los datos :D.</p>
     <p>En esta caja iran los datos :D.</p>
     <p>En esta caja iran los datos :D.</p>
