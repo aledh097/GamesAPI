@@ -174,7 +174,7 @@ def resultadonoticia():
 def noticia():
     return template('ranking.tpl')
 
-@route('/resultadoranking', method='POST')
+@route('/resultadoranking')
 def resultadonoticia():
     return template('resultadoranking.tpl')
 
