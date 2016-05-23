@@ -170,6 +170,10 @@ def resultadonoticia():
     url_noticia=datos3["appnews"]["newsitems"][0]["url"]
     return template('resultadonoticia.tpl', titulo=titulo, detalles=detalles, url_noticia=url_noticia)
 
+@route('/ranking', method = ["GET"])
+def noticia():
+    return template('ranking.tpl')
+
 # This must be added in order to do correct path lookups for the views
 import os
 TEMPLATE_PATH.append(os.path.join(os.environ['OPENSHIFT_REPO_DIR'], 'wsgi/views/')) 
