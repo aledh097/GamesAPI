@@ -1,0 +1,54 @@
+h1 {
+    text-shadow: 1px 1px 2px black, 0 0 4px red, 0 0 19px red;
+}
+b2 {
+    text-shadow: 1px 1px 2px black, 0 0 4px red, 0 0 19px red;
+}
+
+
+
+html {
+  background: url("/static/images/clancss-1.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; 
+}
+
+#botones{ 
+position: relative;
+top: 10px;
+left: 10px;
+display: block; 
+margin: 0px auto; 
+padding: 0px; 
+} 
+
+.inicio{ 
+width: 60px; 
+height: 60px; 
+background: url("/static/images/clancss-2.png") no-repeat; 
+} 
+
+.inicio2{ 
+position: relative;
+top: -70px;
+left: 60px;
+width: 60px; 
+height: 60px; 
+background: url("/static/images/clancss-3.png") no-repeat; 
+} 
+
+div.transbox {
+  margin: 30px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.2;
+  filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+
+div.transbox p {
+  margin: 5%;
+  font-weight: bold;
+  color: #000000;
+}
