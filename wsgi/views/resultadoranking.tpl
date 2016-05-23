@@ -14,15 +14,13 @@
 <h1><font COLOR=white>Ranking de la localidad x :</font></h1>
 <form method="Post" action="ingreso.asp"> 
 
-<div class="background">
-  <div class="transbox">
-    <h1><p>En esta caja iran los datos :D.</p></h1>
-    <p>En esta caja iran los datos :D.</p>
-    <p>En esta caja iran los datos :D.</p>
-    <p>En esta caja iran los datos :D.</p>
-    <p>En esta caja iran los datos :D.</p>
-    <p>En esta caja iran los datos :D.</p>
-    <p>En esta caja iran los datos :D.</p>
+<h1><p>En esta caja iran los datos :D.</p></h1>
+<h2><p>En esta caja iran los datos :D.</p></h2>
+<p>En esta caja iran los datos :D.</p>
+<p>En esta caja iran los datos :D.</p>
+<p>En esta caja iran los datos :D.</p>
+<p>En esta caja iran los datos :D.</p>
+<p>En esta caja iran los datos :D.</p>
 
 
   </div>
