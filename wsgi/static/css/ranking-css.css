@@ -62,14 +62,14 @@ padding: 0px;
 .inicio{ 
 width: 60px; 
 height: 60px; 
-background: url("/static/images/noticiacss-2.png") no-repeat; 
+background: url("/static/images/clancss-2.png") no-repeat; 
 } 
 
 .inicio2{ 
 position: relative;
-top: -600px;
-left: 100px;
+top: -70px;
+left: 60px;
 width: 60px; 
 height: 60px; 
-background: url("/static/images/noticiacss-3.png") no-repeat; 
+background: url("/static/images/clancss-3.png") no-repeat; 
 } 
