@@ -33,7 +33,7 @@
 </TR>
 </p> 
 <br></br>
-<b2><p align="left"><font face="Tahoma" size="2">Buscador de noticias 2016</font></p></b2>
+<b2><p align="left"><font face="Tahoma" size="2">Ranking actual de Clash of Clans 2016</font></p></b2>
 
 <div id="botones"> 
 <a href="/"><img class="inicio" src="/static/images/clan1.png" onmouseover="this.style.opacity=1;this.filters.alpha.opacity='100';" onmouseout="this.style.opacity=0.8;this.filters.alpha.opacity='20';"/></a> 
