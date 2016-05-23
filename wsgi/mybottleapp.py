@@ -4,6 +4,7 @@ import requests
 import json
 import time
 from HTMLParser import HTMLParser
+from coc.api import ClashOfClans
 
 @route('/name/<name>')
 def nameindex(name='Stranger'):
@@ -174,9 +175,15 @@ def resultadonoticia():
 def noticia():
     return template('ranking.tpl')
 
-@route('/resultadoranking')
+@route('/resultadoranking', method='POST')
 def resultadoranking():
-    return template('resultadoranking.tpl')
+    api=ClashOfClans("eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiIsImtpZCI6IjI4YTMxOGY3LTAwMDAtYTFlYi03ZmExLTJjNzQzM2M2Y2NhNSJ9.eyJpc3MiOiJzdXBlcmNlbGwiLCJhdWQiOiJzdXBlcmNlbGw6Z2FtZWFwaSIsImp0aSI6ImE1OGNiY2NlLTVkNTEtNDdkMC1iOTMwLWYwMGI3NzQ2ZGFhNCIsImlhdCI6MTQ2NDAzMDk5Nywic3ViIjoiZGV2ZWxvcGVyL2I3YjQ3ZmNjLTgxN2YtMzhmYy1jODBmLWQxZDgyNjM0ZmI3ZCIsInNjb3BlcyI6WyJjbGFzaCJdLCJsaW1pdHMiOlt7InRpZXIiOiJkZXZlbG9wZXIvc2lsdmVyIiwidHlwZSI6InRocm90dGxpbmcifSx7ImNpZHJzIjpbIjUyLjcuMjE3LjEwIl0sInR5cGUiOiJjbGllbnQifV19.UeDlXmkYiyZUwzKkiZY6YCUVnfB19AjAQ9I4SJbVWVoZ2YI1uhGpull-ZHJ5jtHDPFV92-H_Qcjp15NXeouQmg")
+    id = request.forms.get("nombrelocalidad")
+    localizaciones2=api.locations(id).rankings('clans').get()
+    for l2 in localizaciones2:
+        nombres=l2["name"].encode("utf-8")
+
+    return template('resultadoranking.tpl', nombres=nombres)
 
 # This must be added in order to do correct path lookups for the views
 import os
