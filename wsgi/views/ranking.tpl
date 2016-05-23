@@ -21,15 +21,23 @@
 <input type="submit" value="Buscar" class="submit" />
 <input type="reset" value="Restablecer" name="B2">
 </div>
-
+<TR>
+	<TD>Ordenar por</TD>
+	<TD>
+	<SELECT name="ordenarpor">
+		<OPTION VALUE="Clanes">Clanes</OPTION>
+		<OPTION VALUE="Jugadores">Jugadores</OPTION>
+	</SELECT>
+	</TD>
+</TR>
 </p> 
 <br></br>
 <b2><p align="left"><font face="Tahoma" size="2">Buscador de noticias 2016</font></p></b2>
 
 <div id="botones"> 
-<a href="/"><img class="inicio" src="/static/images/noticia1.png" onmouseover="this.style.opacity=1;this.filters.alpha.opacity='100';" onmouseout="this.style.opacity=0.8;this.filters.alpha.opacity='20';"/></a> 
+<a href="/"><img class="inicio" src="/static/images/clan1.png" onmouseover="this.style.opacity=1;this.filters.alpha.opacity='100';" onmouseout="this.style.opacity=0.8;this.filters.alpha.opacity='20';"/></a> 
 <div id="botones"> 
-<a href="steam"><img class="inicio2" src="/static/images/noticia2.png" onmouseover="this.style.opacity=1;this.filters.alpha.opacity='100';" onmouseout="this.style.opacity=0.8;this.filters.alpha.opacity='20';"/></a> 
+<a href="/coc"><img class="inicio2" src="/static/images/clan2.png" onmouseover="this.style.opacity=1;this.filters.alpha.opacity='100';" onmouseout="this.style.opacity=0.8;this.filters.alpha.opacity='20';"/></a> 
 </div> 
 </body> 
 </html> 
