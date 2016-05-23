@@ -175,7 +175,7 @@ def noticia():
     return template('ranking.tpl')
 
 @route('/resultadoranking')
-def resultadonoticia():
+def resultadoranking():
     return template('resultadoranking.tpl')
 
 # This must be added in order to do correct path lookups for the views
