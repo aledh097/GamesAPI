@@ -174,6 +174,10 @@ def resultadonoticia():
 def noticia():
     return template('ranking.tpl')
 
+@route('/resultadoranking', method='POST')
+def resultadonoticia():
+    return template('resultadoranking.tpl')
+
 # This must be added in order to do correct path lookups for the views
 import os
 TEMPLATE_PATH.append(os.path.join(os.environ['OPENSHIFT_REPO_DIR'], 'wsgi/views/')) 
