@@ -23,7 +23,7 @@
 </div>
 <br></br>
 <TR>
-	<h3><TD>Ordenar por</TD><h3>
+	<h3><TD>Ranking de: </TD><h3>
 	<TD>
 	<SELECT name="ordenarpor">
 		<OPTION VALUE="Clanes">Clanes</OPTION>
