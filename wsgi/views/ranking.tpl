@@ -21,8 +21,9 @@
 <input type="submit" value="Buscar" class="submit" />
 <input type="reset" value="Restablecer" name="B2">
 </div>
+<br></br>
 <TR>
-	<TD>Ordenar por</TD>
+	<h3><TD>Ordenar por</TD><h3>
 	<TD>
 	<SELECT name="ordenarpor">
 		<OPTION VALUE="Clanes">Clanes</OPTION>
