@@ -182,6 +182,7 @@ def resultadoranking():
     localizaciones2=api.locations(int(id)).rankings('clans').get()
     for l2 in localizaciones2[0]:
         nombres=l2["name"].encode("utf-8")
+        print nombres
     return template('resultadoranking.tpl', nombres=nombres)
 
 # This must be added in order to do correct path lookups for the views
