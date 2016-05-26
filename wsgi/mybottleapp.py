@@ -180,7 +180,9 @@ def resultadoranking():
     api=ClashOfClans("eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiIsImtpZCI6IjI4YTMxOGY3LTAwMDAtYTFlYi03ZmExLTJjNzQzM2M2Y2NhNSJ9.eyJpc3MiOiJzdXBlcmNlbGwiLCJhdWQiOiJzdXBlcmNlbGw6Z2FtZWFwaSIsImp0aSI6ImE1OGNiY2NlLTVkNTEtNDdkMC1iOTMwLWYwMGI3NzQ2ZGFhNCIsImlhdCI6MTQ2NDAzMDk5Nywic3ViIjoiZGV2ZWxvcGVyL2I3YjQ3ZmNjLTgxN2YtMzhmYy1jODBmLWQxZDgyNjM0ZmI3ZCIsInNjb3BlcyI6WyJjbGFzaCJdLCJsaW1pdHMiOlt7InRpZXIiOiJkZXZlbG9wZXIvc2lsdmVyIiwidHlwZSI6InRocm90dGxpbmcifSx7ImNpZHJzIjpbIjUyLjcuMjE3LjEwIl0sInR5cGUiOiJjbGllbnQifV19.UeDlXmkYiyZUwzKkiZY6YCUVnfB19AjAQ9I4SJbVWVoZ2YI1uhGpull-ZHJ5jtHDPFV92-H_Qcjp15NXeouQmg")
     id = type(int(request.forms.get("nombrelocalidad")))
     localizaciones2=api.locations(id).rankings('clans').get()
-    return template('resultadoranking.tpl', nombres=localizaciones2)
+    for l2 in localizaciones2[0]:
+        lol=l2["name"].encode("utf-8")
+    return template('resultadoranking.tpl', nombres=lol)
 
 # This must be added in order to do correct path lookups for the views
 import os
