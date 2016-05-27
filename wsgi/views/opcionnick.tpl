@@ -24,7 +24,6 @@
 <b2><p align="left"><font face="Tahoma" size="2">Buscador de perfiles para steam 2016</font></p></b2>
 <br></br>
 <br></br>
-<br></br>
 <h3><font COLOR=white size="2">**Recuerda twittear tus resultados.**</font></h3>
 
 <div id="botones"> 
