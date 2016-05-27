@@ -23,6 +23,9 @@
 <br></br>
 <b2><p align="left"><font face="Tahoma" size="2">Buscador de perfiles para steam 2016</font></p></b2>
 <br></br>
+<br></br>
+<br></br>
+<h3><font COLOR=white size="2">**Recuerda twittear tus resultados.**</font></h3>
 
 <div id="botones"> 
 <a href="http://gamesapi-hezparust.rhcloud.com/"><img class="inicio" src="/static/images/perfil1.png" onmouseover="this.style.opacity=1;this.filters.alpha.opacity='100';" onmouseout="this.style.opacity=0.8;this.filters.alpha.opacity='20';"/></a> 
