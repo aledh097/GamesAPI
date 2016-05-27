@@ -9,7 +9,7 @@
 		<link rel="stylesheet" href="/static/css/resultadoperfil.css" />
 	</head>
 	<body>
-		<h1 align="center"><font COLOR=white>Resultado: </font></h1><h2 align="right"><font COLOR=white>Twittear: </font></h2>	
+		<h1 align="center"><font COLOR=white>Resultado: </font></h1><h2 align="left"><font COLOR=white>Twittear: </font></h2>	
 		<h2 align="center"><font COLOR=white> Datos del usuario cuya id es <b2>{{id_perfil}}</b2>: </font></h2>
 		<br></br>
 		<h2 align="center"><font COLOR=white> Nombre real: <b2>{{nombre_real}}</b2></font></h2>
