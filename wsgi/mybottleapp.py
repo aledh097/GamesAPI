@@ -6,8 +6,6 @@ import time
 from HTMLParser import HTMLParser
 from coc.api import ClashOfClans
 from requests_oauthlib import OAuth1
-from requests_oauthlib import OAuth2Session
-from oauthlib.oauth2 import TokenExpiredError
 from urlparse import parse_qs
 import os
 
