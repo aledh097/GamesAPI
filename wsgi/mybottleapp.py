@@ -5,7 +5,7 @@ import json
 import time
 from HTMLParser import HTMLParser
 from coc.api import ClashOfClans
-#from requests_oauthlib import OAuth1
+from requests_oauthlib import OAuth1
 from urlparse import parse_qs
 import os
 
@@ -28,10 +28,6 @@ def steam():
 @route('/noticia', method = ["GET"]) 
 def noticia():
     return template('noticia.tpl')
-
-@route('/twitter')
-def twitter():
-    return template('twitter.tpl')
 
 @route('/clan')
 def clan():
@@ -196,10 +192,6 @@ CONSUMER_KEY = "jWdjfLA3SbvWNPnE7G8LyoEAI"
 CONSUMER_SECRET = "zOuclYiBmfKDztZaKtd77KL0hPf2DbvaQfbYDNNn83P6d3ldue"
 
 TOKENS = {}
-
-###oauth1
-
-
 
 def get_request_token():
     oauth = OAuth1(CONSUMER_KEY,
