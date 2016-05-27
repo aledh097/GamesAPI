@@ -10,7 +10,7 @@
 	</head>
 	<body>
 	<p> 
-		<img src="/static/images/twitter2.png" align="right">Twittear: </p>
+		<img src="/static/images/twitter2.png" height="42" width="42" align="right">Twittear: </p>
 		<h1 align="center"><font COLOR=white>Resultado: </font></h1><h2 align="left"><font COLOR=white>Twittear: </font></h2>	
 		<h2 align="center"><font COLOR=white> Datos del usuario cuya id es <b2>{{id_perfil}}</b2>: </font></h2>
 		<br></br>
