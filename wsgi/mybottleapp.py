@@ -14,8 +14,8 @@ AUTHENTICATE_URL = "https://api.twitter.com/oauth/authenticate?oauth_token="
 ACCESS_TOKEN_URL = "https://api.twitter.com/oauth/access_token"
 
 
-CONSUMER_KEY = "jWdjfLA3SbvWNPnE7G8LyoEAI"
-CONSUMER_SECRET = "zOuclYiBmfKDztZaKtd77KL0hPf2DbvaQfbYDNNn83P6d3ldue"
+CONSUMER_KEY = "BmdKtMd34vDsOVdyxYrO2rHPl"
+CONSUMER_SECRET = "e695TTYJz3yxDWfidHTripfdImIeuRvGS9OTT5hEICQsj984RR"
 
 TOKENS = {}
 
