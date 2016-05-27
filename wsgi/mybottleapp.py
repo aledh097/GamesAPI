@@ -9,6 +9,16 @@ from requests_oauthlib import OAuth1
 from urlparse import parse_qs
 import os
 
+REQUEST_TOKEN_URL = "https://api.twitter.com/oauth/request_token"
+AUTHENTICATE_URL = "https://api.twitter.com/oauth/authenticate?oauth_token="
+ACCESS_TOKEN_URL = "https://api.twitter.com/oauth/access_token"
+
+
+CONSUMER_KEY = "jWdjfLA3SbvWNPnE7G8LyoEAI"
+CONSUMER_SECRET = "zOuclYiBmfKDztZaKtd77KL0hPf2DbvaQfbYDNNn83P6d3ldue"
+
+TOKENS = {}
+
 @route('/name/<name>')
 def nameindex(name='Stranger'):
     return '<strong>Hello, %s!</strong>' % name
@@ -186,16 +196,6 @@ def resultadoranking():
     for l2 in localizaciones2[1]:
         lol=l2["name"].encode("utf-8")
     return template('resultadoranking.tpl', nombres=lol)
-
-REQUEST_TOKEN_URL = "https://api.twitter.com/oauth/request_token"
-AUTHENTICATE_URL = "https://api.twitter.com/oauth/authenticate?oauth_token="
-ACCESS_TOKEN_URL = "https://api.twitter.com/oauth/access_token"
-
-
-CONSUMER_KEY = "jWdjfLA3SbvWNPnE7G8LyoEAI"
-CONSUMER_SECRET = "zOuclYiBmfKDztZaKtd77KL0hPf2DbvaQfbYDNNn83P6d3ldue"
-
-TOKENS = {}
 
 def get_request_token():
     oauth = OAuth1(CONSUMER_KEY,
