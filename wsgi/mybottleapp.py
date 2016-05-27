@@ -219,14 +219,19 @@ def get_request_token():
     credentials = parse_qs(r.content)
     TOKENS["request_token"] = credentials.get('oauth_token')[0]
     TOKENS["request_token_secret"] = credentials.get('oauth_token_secret')[0]
-    
-@get('/twitter')
-def twitter():
-    get_request_token()
-    authorize_url = AUTHENTICATE_URL + TOKENS["request_token"]
-    response.set_cookie("request_token", TOKENS["request_token"],secret='some-secret-key')
-    response.set_cookie("request_token_secret", TOKENS["request_token_secret"],secret='some-secret-key')
-    return template('twitter.tpl', authorize_url=authorize_url)
+ 
+def get_access_token(TOKENS):
+    oauth = OAuth1(CONSUMER_KEY,
+                   client_secret=CONSUMER_SECRET,
+                   resource_owner_key=TOKENS["request_token"],
+                   resource_owner_secret=TOKENS["request_token_secret"],
+                   verifier=TOKENS["verifier"],)
+  
+  
+  r = requests.post(url=ACCESS_TOKEN_URL, auth=oauth)
+  credentials = parse_qs(r.content)
+  TOKENS["access_token"] = credentials.get('oauth_token')[0]
+  TOKENS["access_token_secret"] = credentials.get('oauth_token_secret')[0]
 
 @get('/callback')
 
@@ -238,6 +243,14 @@ def get_verifier():
   response.set_cookie("access_token", TOKENS["access_token"],secret='some-secret-key')
   response.set_cookie("access_token_secret", TOKENS["access_token_secret"],secret='some-secret-key')
   redirect('/twittear')
+
+@get('/twitter')
+def twitter():
+    get_request_token()
+    authorize_url = AUTHENTICATE_URL + TOKENS["request_token"]
+    response.set_cookie("request_token", TOKENS["request_token"],secret='some-secret-key')
+    response.set_cookie("request_token_secret", TOKENS["request_token_secret"],secret='some-secret-key')
+    return template('twitter.tpl', authorize_url=authorize_url)
 
 
 @get('/twittear')
