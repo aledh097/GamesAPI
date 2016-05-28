@@ -9,6 +9,6 @@
       <p align="middle"><textarea name="tweet" id="textbox" rows="3" cols="50"></textarea></p>
       <p align="middle"><input type="submit" class="button" value="Enviar tweet" /></p>
     </form>
-    <a href="/twitter_logout" align="middle">Desconectar</a>
+    <p align="middle"><a href="/twitter_logout">Desconectar</a></p>
   </body>
 </html>
