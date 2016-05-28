@@ -1,6 +1,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <title>Twitteando...</title>
+    <link rel="stylesheet" href="/static/css/resultadoperfil.css" />
   </head>
   <body>
     <p>Mensaje: </p>
