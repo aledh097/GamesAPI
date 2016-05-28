@@ -10,10 +10,10 @@
 	</head>
 	<body>
 		<p><a href="{{authorize_url}}"><img src="/static/images/twitter2.png" height="42" width="42" align="left"></a><h2><font COLOR=white>: Comparte el resultado en Twitter clickeando en el símbolo.  </h2></font></p>
+		<h2><p><a href="https://twitter.com/intent/tweet?text=Buenas Twitter, estoy echándole un vistazo al perfil de: {{nick}}, gracias a la web http://gamesapi-hezparust.rhcloud.com/"><img src="/static/images/twitter2.png" height="42" width="42" align="left"></a><font COLOR=white>: Comparte el resultado con nosotros clickeando en este símbolo.  </font></p></h2>
 		<h1 align="center"><font COLOR=white>Resultado: </font></h1>
 		<h2 align="center"><font COLOR=white> Datos del usuario cuya id es <b2>{{id_perfil}}</b2>: </font></h2>
- 		<h2><p><a href="https://twitter.com/intent/tweet?text=Buenas Twitter, estoy echándole un vistazo al perfil de: {{nick}}, gracias a la web http://gamesapi-hezparust.rhcloud.com/"><img src="/static/images/twitter2.png" height="42" width="42" align="left"></a><font COLOR=white>: Comparte el resultado con nosotros clickeando en este símbolo.  </font></p></h2>
-		<br></br>
+ 		<br></br>
 		<h2 align="center"><font COLOR=white> Nombre real: <b2>{{nombre_real}}</b2></font></h2>
 		<h2 align="center"><font COLOR=white> ID: <b2>{{id}}</b2></font></h2>
 		<h2 align="center"><font COLOR=white> Nick: <b2>{{nick}}</b2></font></h2>
