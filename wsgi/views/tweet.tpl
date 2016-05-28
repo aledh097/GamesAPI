@@ -3,11 +3,12 @@
     <title>Twitteando...</title>
   </head>
   <body>
-    <p>Mensaje: </p>
+    <p>Buen momento para un tweet:</p>
+    <br />
     <form action="/twittear" method="post">
-      Ingresa un tweet: <input name="ingresatexto" type="text" name="comentarios" rows="10" cols="40" value="Buenas Twitter, estoy echándole un vistazo al perfil de: , gracias a la web http://gamesapi-hezparust.rhcloud.com/" />
-      <p><input type="submit" class="button" value="Enviar tweet" /></p>
+      <p><textarea name="tweet" id="textbox" rows="3" cols="50"></textarea></p>
+      <p><input type="submit" class="button" value="Enviar" /></p>
     </form>
-    <a href="/">Desconectar</a>
+    <a href="/twitter_logout">Desconectar</a>
   </body>
 </html>
