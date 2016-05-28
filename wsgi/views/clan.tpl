@@ -12,10 +12,9 @@
 " ><font color="9a82ff  ">Aqui!</a></font></h2> 
 <form method="Post" action="/resultadoranking"> 
 
-<h3><font COLOR=white>NICK:</font></h3>
 <div id="search-form">
 <form class="form-container" action="/resultadonoticia" method="post">
-<input name="nombrelocalidad" type="text" class="search-field"/>
+<p>NICK: <input name="nickcsgo" type="text" class="search-field"/></p>
 <div class="submit-container">
 <br></br>
 <input type="submit" value="Buscar" class="submit" />
