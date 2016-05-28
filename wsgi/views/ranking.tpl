@@ -1,21 +1,20 @@
 <html> 
 <head> 
 <link rel="shortcut icon" type="image/x-icon" href="http://pro100-contra.ucoz.ru/_ld/2/37459936.png" />
-<title>Ranking según localidad</title> 
+<title>Logros csgo</title> 
 <link rel="stylesheet" href="/static/css/ranking-css.css" />
 </head> 
 </html>
 
 <body> 
-<h1><font COLOR=white>Buscar el ranking actual en Clash Of Clans según una localidad"</font></h1>
-<h2><font COLOR=white>Busca su nombre en el siguiente link: <a href="https://steamdb.info/search/?a=sub
+<h1><font COLOR=white>Buscar logros de un jugador del CSGO</font></h1>
+<h2><font COLOR=white>Busca su nombre en el siguiente link: <a href="https://steamcommunity.com/search/users
 " ><font color="9a82ff  ">Aqui!</a></font></h2> 
 <form method="Post" action="/resultadoranking"> 
 
-<h3><font COLOR=white>Localidad:</font></h3>
 <div id="search-form">
 <form class="form-container" action="/resultadonoticia" method="post">
-<input name="nombrelocalidad" type="text" class="search-field"/>
+<p>NICK: <input name="nombrelocalidad" type="text" class="search-field"/></p>
 <div class="submit-container">
 <br></br>
 <input type="submit" value="Buscar" class="submit" />
