@@ -179,7 +179,11 @@ def resultadoperfil2():
         fecha_creacion=time.ctime(int(datos2["response"]["players"][0]["timecreated"]))
     except:
         fecha_creacion="no disponible"
-    return template('resultadoperfil2.tpl',id_perfil=id_nick,id=id,nick=nick,nombre_real=nombre_real,Avatar=Avatar,Pais=Pais,Codigo_del_Estado=Codigo_del_Estado,Codigo_de_la_ciudad=Codigo_de_la_ciudad,estado=estado,ultimo_logeo=ultimo_logeo,id_clan=id_clan,fecha_creacion=fecha_creacion)
+    get_request_token()
+    authorize_url = AUTHENTICATE_URL + TOKENS["request_token"]
+    response.set_cookie("request_token", TOKENS["request_token"],secret='some-secret-key')
+    response.set_cookie("request_token_secret", TOKENS["request_token_secret"],secret='some-secret-key')
+    return template('resultadoperfil2.tpl',id_perfil=id_nick,id=id,nick=nick,nombre_real=nombre_real,Avatar=Avatar,Pais=Pais,Codigo_del_Estado=Codigo_del_Estado,Codigo_de_la_ciudad=Codigo_de_la_ciudad,estado=estado,ultimo_logeo=ultimo_logeo,id_clan=id_clan,fecha_creacion=fecha_creacion,authorize_url=authorize_url)
 
 @route('/resultadonoticia', method='POST')
 def resultadonoticia():
