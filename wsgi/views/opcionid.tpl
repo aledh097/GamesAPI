@@ -13,7 +13,6 @@
 <form class="form-container" action="/resultadoperfil" method="post">
 <p>ID: <input name="idperfil" type="text" class="search-field"/>
 <div class="submit-container">
-<br></br>
 <input type="submit" value="Buscar" class="submit" />
 <input type="reset" value="Restablecer" name="B2">
 </div>
