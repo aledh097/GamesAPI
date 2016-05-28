@@ -279,9 +279,9 @@ def tweet_submit():
                       data={"status":texto},
                       auth=oauth)
   if r.status_code == 200:
-    return "<p>Tweet properly sent</p>"
+    return "<p>Tweet enviado correctamente :D</p>"
   else:
-    return "<p>Unable to send tweet</p>"+r.content
+    return "<p>No puede enviar el tweet, inténtelo más tarde...</p>"+r.content
 
 # This must be added in order to do correct path lookups for the views
 import os
