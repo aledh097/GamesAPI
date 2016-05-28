@@ -3,10 +3,10 @@
     <title>Twitteando...</title>
   </head>
   <body>
-    <p>Buen momento para un tweet:</p>
+    <p>Mensaje: </p>
     <form action="/twittear" method="post">
       <p><textarea name="tweet" id="textbox" rows="3" cols="50"></textarea></p>
-      <p><input type="submit" class="button" value="Enviar" /></p>
+      <p><input type="submit" class="button" value="Enviar tweet" /></p>
     </form>
     <a href="/twitter_logout">Desconectar</a>
   </body>
