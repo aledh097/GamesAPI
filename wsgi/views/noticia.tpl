@@ -12,10 +12,9 @@
 " ><font color="9a82ff  ">Aqui!</a></font></h2> 
 <form method="Post" action="/resultadonoticia"> 
 
-<h3><font COLOR=white>Nombre completo:</font></h3>
 <div id="search-form">
 <form class="form-container" action="/resultadonoticia" method="post">
-<input name="nombrejuego" type="text" class="search-field"/>
+<p>Nombre completo: <input name="nombrejuego" type="text" class="search-field"/></p>
 <div class="submit-container">
 <br></br>
 <input type="submit" value="Buscar" class="submit" />
