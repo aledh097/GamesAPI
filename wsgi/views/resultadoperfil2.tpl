@@ -10,7 +10,6 @@
 	</head>
 	<body>
 		<p><a href="{{authorize_url}}"><img src="http://www.redunonet.co/twitter.png" height="42" width="42" align="left"></a><h2><font COLOR=white>: Comparte tu mensaje en Twitter clickeando en este símbolo.  </h2></font></p>
-		<h2><p><a href="https://twitter.com/intent/tweet?text=Buenas, estoy echándole un vistazo al perfil de: {{nick}}, con id: {{id}}, gracias a la web http://gamesapi-hezparust.rhcloud.com/"><img src="/static/images/twitter2.png" height="42" width="42" align="left"></a><font COLOR=white>: Comparte el resultado en Twitter clickeando en este otro símbolo.  </font></p></h2>
 		<h1 align="center"><font COLOR=white>Resultado: </font></h1>	
 		<h2 align="center"><font COLOR=white> Datos del usuario cuya id es <b2>{{id_perfil}}</b2>: </font></h2>
 		<br></br>
