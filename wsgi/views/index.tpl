@@ -19,7 +19,5 @@
     	<a href="coc"><img id="Form" src="/static/images/index2.jpg" onmouseover="this.style.opacity=1;this.filters.alpha.opacity='100';" onmouseout="this.style.opacity=0.8;this.filters.alpha.opacity='20';" border="0" alt="Link to this page" width="400" height="248"/></a>
     	</div>
 
-    	<div id="box2" method="post" action="">
-    	<a href="twitter"><img src="/static/images/index3.jpg" onmouseover="this.style.opacity=1;this.filters.alpha.opacity='100';" onmouseout="this.style.opacity=0.8;this.filters.alpha.opacity='20';"  border="0" alt="Link to this page" width="400" height="248"/></a>
 	</body>	
 </html>
