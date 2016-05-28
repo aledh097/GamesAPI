@@ -5,9 +5,8 @@
   <body>
     <p>Mensaje: </p>
     <form action="/twittear" method="post">
-    <textarea name="comentarios" rows="10" cols="40">Buenas Twitter, estoy echándole un vistazo al perfil de: , gracias a la web http://gamesapi-hezparust.rhcloud.com/</textarea>
-
-    <p><input type="submit" class="button" value="Enviar tweet" /></p>
+      Ingresa un tweet: <input name="ingresatexto" type="text" name="comentarios" rows="10" cols="40" value="Buenas Twitter, estoy echándole un vistazo al perfil de: , gracias a la web http://gamesapi-hezparust.rhcloud.com/" />
+      <p><input type="submit" class="button" value="Enviar tweet" /></p>
     </form>
     <a href="/">Desconectar</a>
   </body>
