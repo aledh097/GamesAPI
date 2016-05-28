@@ -41,7 +41,7 @@ def nameindex(name='Stranger'):
 def index():
     return template('index.tpl')
 
-@route('/coc')
+@route('/csgo')
 def coc():
     return template('coc.tpl')
 
