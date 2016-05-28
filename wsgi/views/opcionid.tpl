@@ -9,7 +9,6 @@
 <body> 
 <h1><font COLOR=white>Buscar perfil de un jugador de Steam en concreto mediante su "ID"</font></h1>
 <h2><font COLOR=white>Busca su ID : <a href="http://www.steam64.com/" ><font color="9a82ff  ">Aqui</a><font COLOR=white> 
-<h3><font COLOR=white>ID:</font></h3>
 <div id="search-form">
 <form class="form-container" action="/resultadoperfil" method="post">
 <p>ID: <input name="idperfil" type="text" class="search-field"/>
