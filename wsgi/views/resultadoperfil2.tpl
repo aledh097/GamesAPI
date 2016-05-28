@@ -9,7 +9,7 @@
 		<link rel="stylesheet" href="/static/css/resultadoperfil.css" />
 	</head>
 	<body>
-		<p><a href=""><img src="http://www.redunonet.co/twitter.png" height="42" width="42" align="left"></a><h2><font COLOR=white>: Comparte tu mensaje en Twitter clickeando en este símbolo.  </h2></font></p>
+		<p><a href="{{authorize_url}}"><img src="http://www.redunonet.co/twitter.png" height="42" width="42" align="left"></a><h2><font COLOR=white>: Comparte tu mensaje en Twitter clickeando en este símbolo.  </h2></font></p>
 		<h1 align="center"><font COLOR=white>Resultado: </font></h1>	
 		<h2 align="center"><font COLOR=white> Datos del usuario cuya id es <b2>{{id_perfil}}</b2>: </font></h2>
 		<br></br>
