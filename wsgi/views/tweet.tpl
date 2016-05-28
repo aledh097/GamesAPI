@@ -6,7 +6,7 @@
   <body>
     <font size="6" color="white"><p align="middle">Mensaje: </p></font>
     <form action="/twittear" method="post">
-      <p align="middle"><textarea name="tweet" type="text" id="textbox" rows="3" cols="50" value="hola"></textarea></p>
+      <p align="middle"><textarea name="tweet" type="text" rows="3" cols="50" value="hola"></textarea></p>
       <p align="middle"><input type="submit" class="button" value="Enviar tweet" /></p>
     </form>
 
