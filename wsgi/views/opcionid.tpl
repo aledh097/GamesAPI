@@ -12,7 +12,7 @@
 <h3><font COLOR=white>ID:</font></h3>
 <div id="search-form">
 <form class="form-container" action="/resultadoperfil" method="post">
-<input name="idperfil" type="text" class="search-field"/>
+<p>ID: <input name="idperfil" type="text" class="search-field"/>
 <div class="submit-container">
 <br></br>
 <input type="submit" value="Buscar" class="submit" />
