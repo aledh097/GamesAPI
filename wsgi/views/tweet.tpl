@@ -1,6 +1,6 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
-    <title>Twitteando...</title>
+    <title align="middle">Twitteando...</title>
     <link rel="stylesheet" href="/static/css/resultadonoticia.css" />
   </head>
   <body>
