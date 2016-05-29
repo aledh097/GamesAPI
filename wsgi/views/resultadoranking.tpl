@@ -17,6 +17,7 @@
 <br></br>
 <h1><p align="middle"><font COLOR=#FAFFCB>Total de víctimas: </font><font COLOR=white>{{total_victimas}}</font></p></h1>
 <h1><p align="middle"><font COLOR=#FAFFCB>Total de muertes: </font><font COLOR=white>{{total_muertes}}</font></p></h1>
+<h1><p align="middle"><font COLOR=#FAFFCB>Media víctimas/muertes: </font><font COLOR=white>{{media}}</font></p></h1>
 <h1><p align="middle"><font COLOR=#FAFFCB>Disparos a la cabeza: </font><font COLOR=white>{{cabeza}}</font></p></h1>
 <h1><p align="middle"><font COLOR=#FAFFCB>Bombas colocadas: </font><font COLOR=white>{{bombas_colocadas}}</font></p></h1>
 <h1><p align="middle"><font COLOR=#FAFFCB>Bombas desactivadas: </font><font COLOR=white>{{bombas_desactivadas}}</font></p></h1>
