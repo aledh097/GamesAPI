@@ -29,8 +29,6 @@
 <h1><p align="middle">Víctimas cegadas: <font COLOR=white>{{cegadas}}</font></p></h1>
 <h1><p align="middle">Víctimas en pelea a cuchillo: <font COLOR=white>{{cuchillo}}</font></p></h1>
 
-
-
   </div>
 </div>
 
