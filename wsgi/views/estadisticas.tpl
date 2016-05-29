@@ -14,7 +14,7 @@
 
 <div id="search-form">
 <form class="form-container" action="/resultadoestadisticas" method="post">
-<p>NICK: <input name="nombrelocalidad" type="text" class="search-field"/></p>
+<p>NICK: <input name="nickcsgo" type="text" class="search-field"/></p>
 <div class="submit-container">
 <br></br>
 <input type="submit" value="Buscar" class="submit" />
