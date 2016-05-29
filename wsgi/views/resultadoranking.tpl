@@ -33,6 +33,8 @@
 <h1><p align="middle"><font COLOR=#FAFFCB>Víctimas durante dominación: </font><font COLOR=white>{{victimas_dominaciones}}</font></p></h1>
 <h1><p align="middle"><font COLOR=#FAFFCB>Venganzas de dominación: </font><font COLOR=white>{{venganzas_dominaciones}}</font></p></h1>
 <h1><p align="middle"><font COLOR=#FAFFCB>Rondas de pistola ganada: </font><font COLOR=white>{{rondas_pistolas}}</font></p></h1>
+<h1><p align="middle"><font COLOR=#FAFFCB>Víctimas con Zeus: </font><font COLOR=white>{{zeus}}</font></p></h1>
+<h1><p align="middle"><font COLOR=#FAFFCB>Ventanas destruidas: </font><font COLOR=white>{{ventanas}}</font></p></h1>
 
   </div>
 </div>

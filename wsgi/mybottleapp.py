@@ -238,8 +238,10 @@ def resultadoranking():
     victimas_dominaciones=datos5["playerstats"]["stats"][44]["value"]
     venganzas_dominaciones=datos5["playerstats"]["stats"][45]["value"]
     rondas_pistolas=datos5["playerstats"]["stats"][27]["value"]
+    zeus=datos5["playerstats"]["stats"][179]["value"]
+    ventanas=datos5["playerstats"]["stats"][39]["value"]
 
-    return template('resultadoranking.tpl', avatar=avatar,nick=nick,total_victimas=total_victimas,total_muertes=total_muertes, cabeza=cabeza,bombas_colocadas=bombas_colocadas,bombas_desactivadas=bombas_desactivadas,rehenes=rehenes,jugadas=jugadas,ganadas=ganadas,estrellas=estrellas,armas_equipo=armas_equipo,victimas_arma_enemiga=victimas_arma_enemiga,cegadas=cegadas,disparos=disparos,impactos=impactos,dominaciones=dominaciones,victimas_dominaciones=victimas_dominaciones,venganzas_dominaciones=venganzas_dominaciones,rondas_pistolas=rondas_pistolas)
+    return template('resultadoranking.tpl', avatar=avatar,nick=nick,total_victimas=total_victimas,total_muertes=total_muertes, cabeza=cabeza,bombas_colocadas=bombas_colocadas,bombas_desactivadas=bombas_desactivadas,rehenes=rehenes,jugadas=jugadas,ganadas=ganadas,estrellas=estrellas,armas_equipo=armas_equipo,victimas_arma_enemiga=victimas_arma_enemiga,cegadas=cegadas,disparos=disparos,impactos=impactos,dominaciones=dominaciones,victimas_dominaciones=victimas_dominaciones,venganzas_dominaciones=venganzas_dominaciones,rondas_pistolas=rondas_pistolas,zeus=zeus,ventanas=ventanas)
 
 def get_request_token():
     oauth = OAuth1(CONSUMER_KEY,
