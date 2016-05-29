@@ -26,7 +26,7 @@
 <h1><p align="middle"><font COLOR=#FAFFCB>Estrellas MVP: </font><font COLOR=white>{{estrellas}} <img src="http://images3.wikia.nocookie.net/__cb20141218172544/novela-prueba/es/images/7/70/Golden-trophy-icon-1106112624.png
 " border="0" width="50" height="50"></font></p></h1>
 <h1><p align="middle"><font COLOR=#FAFFCB>Armas donadas al equipo: </font><font COLOR=white>{{armas_equipo}} <img src="http://vignette3.wikia.nocookie.net/deer-hunter/images/f/fe/Arma_silueta.png/revision/latest?cb=20150718132337&path-prefix=es" border="0" width="50" height="50"></font></p></h1>
-<h1><p align="middle"><font COLOR=#FAFFCB>Víctimas con una arma enemiga: </font><font COLOR=white>{{victimas_arma_enemiga}}</font></p></h1>
+<h1><p align="middle"><font COLOR=#FAFFCB>Víctimas con una arma enemiga: </font><font COLOR=white>{{victimas_arma_enemiga}} <img src="https://pixabay.com/static/uploads/photo/2012/04/12/11/18/pistol-29549_640.png" border="0" width="50" height="50"></font></p></h1>
 <h1><p align="middle"><font COLOR=#FAFFCB>Víctimas cegadas: </font><font COLOR=white>{{cegadas}}</font></p></h1>
 <h1><p align="middle"><font COLOR=#FAFFCB>Disparos: </font><font COLOR=white>{{disparos}}</font></p></h1>
 <h1><p align="middle"><font COLOR=#FAFFCB>Impactos: </font><font COLOR=white>{{impactos}}</font></p></h1>
@@ -38,7 +38,6 @@
 <h1><p align="middle"><font COLOR=#FAFFCB>Ventanas destruidas: </font><font COLOR=white>{{ventanas}}</font></p></h1>
   </div>
 </div>
-
 </p> 
 <br></br>
 <b2><p align="right"><font color=white face="Tahoma" size="4">Estadísticas jugador CSGO 2016</font></p></b2>
