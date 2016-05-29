@@ -19,8 +19,8 @@
 <h1><p align="middle"><font COLOR=#FAFFCB>Total de muertes: </font><font COLOR=white>{{total_muertes }}<img src="http://freeiconbox.com/icon/256/12231.png" border="0" width="50" height="50"></font></p></h1>
 <h1><p align="middle"><font COLOR=#FAFFCB>Media víctimas/muertes: </font><font COLOR=white>{{media}}</font></p></h1>
 <h1><p align="middle"><font COLOR=#FAFFCB>Disparos a la cabeza: </font><font COLOR=white>{{cabeza}} <img src="http://www.fancyicons.com/free-icons/232/cinema/png/256/human_head_256.png" border="0" width="50" height="50"></font></p></h1>
-<h1><p align="middle"><font COLOR=#FAFFCB>Bombas colocadas: </font><font COLOR=white>{{bombas_colocadas <img src="http://fotos.subefotos.com/5f31239f9ed211139f9a2df95236f302o.png" border="0" width="50" height="50">}}</font></p></h1>
-<h1><p align="middle"><font COLOR=#FAFFCB>Bombas desactivadas: </font><font COLOR=white>{{bombas_desactivadas <img src="http://fotos.subefotos.com/87222d25fb874183ed014b4da7ecd32ao.png" border="0" width="50" height="50">}}</font></p></h1>
+<h1><p align="middle"><font COLOR=#FAFFCB>Bombas colocadas: </font><font COLOR=white>{{bombas_colocadas}} <img src="http://fotos.subefotos.com/5f31239f9ed211139f9a2df95236f302o.png" border="0" width="50" height="50">}}</font></p></h1>
+<h1><p align="middle"><font COLOR=#FAFFCB>Bombas desactivadas: </font><font COLOR=white>{{bombas_desactivadas}} <img src="http://fotos.subefotos.com/87222d25fb874183ed014b4da7ecd32ao.png" border="0" width="50" height="50">}}</font></p></h1>
 <h1><p align="middle"><font COLOR=#FAFFCB>Rehenes rescatados: </font><font COLOR=white>{{rehenes}}</font></p></h1>
 <h1><p align="middle"><font COLOR=#FAFFCB>Partidas jugadas: </font><font COLOR=white>{{jugadas}}</font></p></h1>
 <h1><p align="middle"><font COLOR=#FAFFCB>Partidas ganadas: </font><font COLOR=white>{{ganadas}}</font></p></h1>
