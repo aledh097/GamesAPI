@@ -14,9 +14,9 @@
 <h1 align="middle"><font COLOR=white>Estadísticas de {{nick}}:</font></h1>
 <form method="Post" action="ingreso.asp"> 
 
-<h1><p align="middle">Total de víctimas: {{total_victimas}}</p></h1>
-<h1><p align="middle">Total de muertes: {{total_muertes}}</p></h1>
-<h1><p align="middle">Disparos a la cabeza: {{cabeza}}</p></h1>
+<h1><p align="middle">Total de víctimas: <font COLOR=white>{{total_victimas}}</font></p></h1>
+<h1><p align="middle">Total de muertes: <font COLOR=white>{{total_muertes}}</font></p></h1>
+<h1><p align="middle">Disparos a la cabeza: <font COLOR=white>{{cabeza}}</font></p></h1>
 <h2><p>En esta caja iran los datos :D.</p></h2>
 <p>En esta caja iran los datos :D.</p>
 <p>En esta caja iran los datos :D.</p>
