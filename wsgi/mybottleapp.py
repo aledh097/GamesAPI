@@ -53,7 +53,7 @@ def steam():
 def noticia():
     return template('noticia.tpl')
 
-@route('/clan')
+@route('/estadisticas')
 def clan():
     return template('clan.tpl')
 
