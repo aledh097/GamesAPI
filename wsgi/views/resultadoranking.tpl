@@ -27,7 +27,6 @@
 <h1><p align="middle">Armas donadas al equipo: <font COLOR=white>{{armas_equipo}}</font></p></h1>
 <h1><p align="middle">Víctimas con una arma enemiga: <font COLOR=white>{{victimas_arma_enemiga}}</font></p></h1>
 <h1><p align="middle">Víctimas cegadas: <font COLOR=white>{{cegadas}}</font></p></h1>
-<h1><p align="middle">Víctimas en pelea a cuchillo: <font COLOR=white>{{knife}}</font></p></h1>
 
   </div>
 </div>
