@@ -15,7 +15,7 @@
 <form method="Post" action="ingreso.asp"> 
 <h2 align="center"><font COLOR=white></font></h2> <center><img src={{avatar}}></center>
 <br></br>
-<h1><p align="middle"><font COLOR=#FAFFCB>Total de víctimas: </font><font COLOR=white>{{total_victimas}}</font></p></h1><img src="http://www.conozcaelyunque.es/wp-content/uploads/2015/03/victima.gif" border="0" width="10" height="10">
+<h1><p align="middle"><font COLOR=#FAFFCB>Total de víctimas: </font><font COLOR=white>{{total_victimas}}<img src="http://www.conozcaelyunque.es/wp-content/uploads/2015/03/victima.gif" border="0" width="50" height="50"></font></p></h1>
 <h1><p align="middle"><font COLOR=#FAFFCB>Total de muertes: </font><font COLOR=white>{{total_muertes}}</font></p></h1>
 <h1><p align="middle"><font COLOR=#FAFFCB>Media víctimas/muertes: </font><font COLOR=white>{{media}}</font></p></h1>
 <h1><p align="middle"><font COLOR=#FAFFCB>Disparos a la cabeza: </font><font COLOR=white>{{cabeza}}</font></p></h1>
