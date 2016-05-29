@@ -44,7 +44,7 @@
 <div id="botones"> 
 <a href="/"><img class="inicio" src="/static/images/clan1.png" onmouseover="this.style.opacity=1;this.filters.alpha.opacity='100';" onmouseout="this.style.opacity=0.8;this.filters.alpha.opacity='20';"/></a> 
 <div id="botones"> 
-<a href="/coc"><img class="inicio2" src="/static/images/clan2.png" onmouseover="this.style.opacity=1;this.filters.alpha.opacity='100';" onmouseout="this.style.opacity=0.8;this.filters.alpha.opacity='20';"/></a> 
+<a href="/csgo"><img class="inicio2" src="/static/images/clan2.png" onmouseover="this.style.opacity=1;this.filters.alpha.opacity='100';" onmouseout="this.style.opacity=0.8;this.filters.alpha.opacity='20';"/></a> 
 </div> 
 
 
