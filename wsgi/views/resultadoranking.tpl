@@ -31,7 +31,7 @@
 <h1><p align="middle"><font COLOR=#D3D3D3>Impactos: </font><font COLOR=white>{{impactos}}</font></p></h1>
 <h1><p align="middle"><font COLOR=#D3D3D3>Dominaciones: </font><font COLOR=white>{{dominaciones}}</font></p></h1>
 <h1><p align="middle"><font COLOR=#D3D3D3>Víctimas durante dominación: </font><font COLOR=white>{{victimas_dominaciones}}</font></p></h1>
-
+<h1><p align="middle"><font COLOR=#D3D3D3>Venganzas de dominación: </font><font COLOR=white>{{venganzas_dominaciones}}</font></p></h1>
 
   </div>
 </div>
