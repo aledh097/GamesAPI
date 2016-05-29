@@ -21,7 +21,7 @@
 <h1><p align="middle"><font COLOR=#FAFFCB>Disparos a la cabeza: </font><font COLOR=white>{{cabeza}} <img src="http://www.fancyicons.com/free-icons/232/cinema/png/256/human_head_256.png" border="0" width="50" height="50"></font></p></h1>
 <h1><p align="middle"><font COLOR=#FAFFCB>Bombas colocadas: </font><font COLOR=white>{{bombas_colocadas}} <img src="http://vignette2.wikia.nocookie.net/callofduty/images/6/6d/C4_Third_Person_MW2.png/revision/latest?cb=20120122004022" border="0" width="50" height="50"></font></p></h1>
 <h1><p align="middle"><font COLOR=#FAFFCB>Bombas desactivadas: </font><font COLOR=white>{{bombas_desactivadas}} <img src="http://vignette1.wikia.nocookie.net/cswikia/images/9/9e/W_c4_csgo.png/revision/latest?cb=20151122043536" border="0" width="50" height="50"></font></p></h1>
-<h1><p align="middle"><font COLOR=#FAFFCB>Rehenes rescatados: </font><font COLOR=white>{{rehenes}}</font></p></h1>
+<h1><p align="middle"><font COLOR=#FAFFCB>Rehenes rescatados: </font><font COLOR=white>{{rehenes}} <img src="http://theglamping.com/wp-content/uploads/2013/04/persona.png" border="0" width="50" height="50"></font></p></h1>
 <h1><p align="middle"><font COLOR=#FAFFCB>Partidas jugadas: </font><font COLOR=white>{{jugadas}}</font></p></h1>
 <h1><p align="middle"><font COLOR=#FAFFCB>Partidas ganadas: </font><font COLOR=white>{{ganadas}}</font></p></h1>
 <h1><p align="middle"><font COLOR=#FAFFCB>Estrellas MVP: </font><font COLOR=white>{{estrellas}}</font></p></h1>
