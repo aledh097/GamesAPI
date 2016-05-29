@@ -53,7 +53,7 @@ def steam():
 def noticia():
     return template('noticia.tpl')
 
-@route('/estadisticas')
+@route('/estadisticas', method = ["GET"])
 def clan():
     return template('clan.tpl')
 
@@ -208,12 +208,12 @@ def noticia():
 
 @route('/resultadoestadisticas', method='POST')
 def resultadoranking():
-    api=ClashOfClans("eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiIsImtpZCI6IjI4YTMxOGY3LTAwMDAtYTFlYi03ZmExLTJjNzQzM2M2Y2NhNSJ9.eyJpc3MiOiJzdXBlcmNlbGwiLCJhdWQiOiJzdXBlcmNlbGw6Z2FtZWFwaSIsImp0aSI6ImE1OGNiY2NlLTVkNTEtNDdkMC1iOTMwLWYwMGI3NzQ2ZGFhNCIsImlhdCI6MTQ2NDAzMDk5Nywic3ViIjoiZGV2ZWxvcGVyL2I3YjQ3ZmNjLTgxN2YtMzhmYy1jODBmLWQxZDgyNjM0ZmI3ZCIsInNjb3BlcyI6WyJjbGFzaCJdLCJsaW1pdHMiOlt7InRpZXIiOiJkZXZlbG9wZXIvc2lsdmVyIiwidHlwZSI6InRocm90dGxpbmcifSx7ImNpZHJzIjpbIjUyLjcuMjE3LjEwIl0sInR5cGUiOiJjbGllbnQifV19.UeDlXmkYiyZUwzKkiZY6YCUVnfB19AjAQ9I4SJbVWVoZ2YI1uhGpull-ZHJ5jtHDPFV92-H_Qcjp15NXeouQmg")
-    id = type(int(request.forms.get("nombrelocalidad")))
-    localizaciones2=api.locations(id).rankings('clans').get()
-    for l2 in localizaciones2[1]:
-        lol=l2["name"].encode("utf-8")
-    return template('resultadoranking.tpl', nombres=lol)
+    nick = request.forms.get("nickcsgo")
+    dicc_parametros5={'key':'1685786EECBF130267010877BAB447D0','vanityurl':nick}
+    r5 = requests.get("http://api.steampowered.com/ISteamUser/ResolveVanityURL/v0001/", params=dicc_parametros5)
+    datos4 = json.loads(r5.text.encode("utf-8"))
+    id_nick=datos4["response"]["steamid"]
+    return template('resultadoranking.tpl', id_nick=id_nick)
 
 def get_request_token():
     oauth = OAuth1(CONSUMER_KEY,
