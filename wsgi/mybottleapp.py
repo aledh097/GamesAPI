@@ -213,8 +213,12 @@ def resultadoranking():
     r5 = requests.get("http://api.steampowered.com/ISteamUser/ResolveVanityURL/v0001/", params=dicc_parametros5)
     datos4 = json.loads(r5.text.encode("utf-8"))
     id_nick=datos4["response"]["steamid"]
-    dicc_parametros6={'key':'1685786EECBF130267010877BAB447D0','steamids':id_nick}
+    dicc_parametros6={'key':'1685786EECBF130267010877BAB447D0','steamid':id_nick}
     r6 = requests.get("http://api.steampowered.com/ISteamUserStats/GetUserStatsForGame/v0002/?appid=730", params=dicc_parametros6)
+    datos5 = json.loads(r6.text.encode("utf-8"))
+    total_muertes=datos5["playerstats"]["stats"][0]
+    for t in total_muertes[0]:
+    	total_muertes2=t["name"]
     return template('resultadoranking.tpl', total_muertes=r6)
 
 def get_request_token():
