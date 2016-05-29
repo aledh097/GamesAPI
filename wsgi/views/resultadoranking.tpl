@@ -23,10 +23,9 @@
 <h1><p align="middle"><font COLOR=#FAFFCB>Rehenes rescatados: </font><font COLOR=white>{{rehenes}} <img src="http://2.bp.blogspot.com/-wUUOTc37CvE/UAgh_3vgHwI/AAAAAAAAAaY/7eY-n0ShQ6k/s1600/hombre.png" border="0" width="50" height="50"></font></p></h1>
 <h1><p align="middle"><font COLOR=#FAFFCB>Partidas jugadas: </font><font COLOR=white>{{jugadas}}</font></p></h1>
 <h1><p align="middle"><font COLOR=#FAFFCB>Partidas ganadas: </font><font COLOR=white>{{ganadas}} <img src="http://images3.wikia.nocookie.net/__cb20141218172544/novela-prueba/es/images/7/70/Golden-trophy-icon-1106112624.png" border="0" width="50" height="50"></font></p></h1>
-<h1><p align="middle"><font COLOR=#FAFFCB>Estrellas MVP: </font><font COLOR=white>{{estrellas}} <img src="http://images3.wikia.nocookie.net/__cb20141218172544/novela-prueba/es/images/7/70/Golden-trophy-icon-1106112624.png
-" border="0" width="50" height="50"></font></p></h1>
+<h1><p align="middle"><font COLOR=#FAFFCB>Estrellas MVP: </font><font COLOR=white>{{estrellas}} <img src="http://vignette3.wikia.nocookie.net/new-fantendo/images/e/e8/Estrella_Dorada.png/revision/latest?cb=20150706203042&path-prefix=es" border="0" width="50" height="50"></font></p></h1>
 <h1><p align="middle"><font COLOR=#FAFFCB>Armas donadas al equipo: </font><font COLOR=white>{{armas_equipo}} <img src="http://vignette3.wikia.nocookie.net/deer-hunter/images/f/fe/Arma_silueta.png/revision/latest?cb=20150718132337&path-prefix=es" border="0" width="50" height="50"></font></p></h1>
-<h1><p align="middle"><font COLOR=#FAFFCB>Víctimas con una arma enemiga: </font><font COLOR=white>{{victimas_arma_enemiga}} <img src="https://pixabay.com/static/uploads/photo/2012/04/12/11/18/pistol-29549_640.png" border="0" width="50" height="50"></font></p></h1>
+<h1><p align="middle"><font COLOR=#FAFFCB>Víctimas con una arma enemiga: </font><font COLOR=white>{{victimas_arma_enemiga}} <img src="http://vignette4.wikia.nocookie.net/mercenarios/images/2/26/Beretta92.png/revision/latest?cb=20120821143143&path-prefix=es" border="0" width="50" height="50"></font></p></h1>
 <h1><p align="middle"><font COLOR=#FAFFCB>Víctimas cegadas: </font><font COLOR=white>{{cegadas}}</font></p></h1>
 <h1><p align="middle"><font COLOR=#FAFFCB>Disparos: </font><font COLOR=white>{{disparos}}</font></p></h1>
 <h1><p align="middle"><font COLOR=#FAFFCB>Impactos: </font><font COLOR=white>{{impactos}}</font></p></h1>
