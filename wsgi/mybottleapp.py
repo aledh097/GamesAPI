@@ -217,7 +217,7 @@ def resultadoranking():
     r6 = requests.get("http://api.steampowered.com/ISteamUserStats/GetUserStatsForGame/v0002/?appid=730", params=dicc_parametros6)
     datos5 = json.loads(r6.text.encode("utf-8"))
     dicc_parametros7={'key':'1685786EECBF130267010877BAB447D0','steamids':id_nick}
-    r7 = requests.get("http://api.steampowered.com/ISteamUser/GetPlayerSummaries/v0002/", params=dicc_parametros3)
+    r7 = requests.get("http://api.steampowered.com/ISteamUser/GetPlayerSummaries/v0002/", params=dicc_parametros7)
     datos7 = json.loads(r7.text.encode("utf-8"))
     avatar=datos7["response"]["players"][0]["avatarfull"]
     total_victimas=datos5["playerstats"]["stats"][0]["value"]
