@@ -19,8 +19,8 @@
 <h1><p align="middle"><font COLOR=#FAFFCB>Total de muertes: </font><font COLOR=white>{{total_muertes }}<img src="http://freeiconbox.com/icon/256/12231.png" border="0" width="50" height="50"></font></p></h1>
 <h1><p align="middle"><font COLOR=#FAFFCB>Media víctimas/muertes: </font><font COLOR=white>{{media}}</font></p></h1>
 <h1><p align="middle"><font COLOR=#FAFFCB>Disparos a la cabeza: </font><font COLOR=white>{{cabeza}} <img src="http://www.fancyicons.com/free-icons/232/cinema/png/256/human_head_256.png" border="0" width="50" height="50"></font></p></h1>
-<h1><p align="middle"><font COLOR=#FAFFCB>Bombas colocadas: </font><font COLOR=white>{{bombas_colocadas}}</font></p></h1>
-<h1><p align="middle"><font COLOR=#FAFFCB>Bombas desactivadas: </font><font COLOR=white>{{bombas_desactivadas}}</font></p></h1>
+<h1><p align="middle"><font COLOR=#FAFFCB>Bombas colocadas: </font><font COLOR=white>{{bombas_colocadas <img src="http://vignette4.wikia.nocookie.net/counterstrike/images/8/8b/V_c4_source.png/revision/latest?cb=20110821220943&path-prefix=es" border="0" width="50" height="50">}}</font></p></h1>
+<h1><p align="middle"><font COLOR=#FAFFCB>Bombas desactivadas: </font><font COLOR=white>{{bombas_desactivadas <img src="http://vignette1.wikia.nocookie.net/cswikia/images/f/fe/V_c4_go_lowres.png/revision/latest?cb=20140730061530" border="0" width="50" height="50">}}</font></p></h1>
 <h1><p align="middle"><font COLOR=#FAFFCB>Rehenes rescatados: </font><font COLOR=white>{{rehenes}}</font></p></h1>
 <h1><p align="middle"><font COLOR=#FAFFCB>Partidas jugadas: </font><font COLOR=white>{{jugadas}}</font></p></h1>
 <h1><p align="middle"><font COLOR=#FAFFCB>Partidas ganadas: </font><font COLOR=white>{{ganadas}}</font></p></h1>
