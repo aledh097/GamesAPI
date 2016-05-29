@@ -31,8 +31,8 @@
 <h1><p align="middle"><font COLOR=#FAFFCB>Impactos: </font><font COLOR=white>{{impactos}} <img src="http://2.bp.blogspot.com/-yViA2IlMRz0/TnIN2882xZI/AAAAAAAAEtc/v2IAmmnXnVE/s1600/Punch%2Bin%2Bthe%2BFace.png" border="0" width="50" height="50"></font></p></h1>
 <h1><p align="middle"><font COLOR=#FAFFCB>Dominaciones: </font><font COLOR=white>{{dominaciones}} <img src="http://market-hash.com/wp-content/uploads/2014/06/dominate-the-competition.png" border="0" width="50" height="50"></font></p></h1>
 <h1><p align="middle"><font COLOR=#FAFFCB>Víctimas durante dominación: </font><font COLOR=white>{{victimas_dominaciones}} <img src="http://louisluwe.com/wp-content/uploads/2014/03/Create-And-Dominate-Your-Own-Market-300x272.png" border="0" width="50" height="50"></font></p></h1>
-<h1><p align="middle"><font COLOR=#FAFFCB>Venganzas de dominación: </font><font COLOR=white>{{venganzas_dominaciones}} <img src="https://upload.wikimedia.org/wikipedia/commons/b/bb/Logo_la_venganza.png" border="0" width="50" height="50"></font></p></h1>
-<h1><p align="middle"><font COLOR=#FAFFCB>Rondas de pistola ganada: </font><font COLOR=white>{{rondas_pistolas}}</font></p></h1>
+<h1><p align="middle"><font COLOR=#FAFFCB>Venganzas de dominación: </font><font COLOR=white>{{venganzas_dominaciones}} <img src="http://www.elblogdeyes.com/wp-content/uploads/2013/05/venganza.jpg" border="0" width="50" height="50"></font></p></h1>
+<h1><p align="middle"><font COLOR=#FAFFCB>Rondas de pistola ganada: </font><font COLOR=white>{{rondas_pistolas}} <img src="http://www.airsoftwinner.com/tienda/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/_/p/_pistola_walther_p99_ram.png" border="0" width="50" height="50"></font></p></h1>
 <h1><p align="middle"><font COLOR=#FAFFCB>Víctimas con Zeus: </font><font COLOR=white>{{zeus}}</font></p></h1>
 <h1><p align="middle"><font COLOR=#FAFFCB>Ventanas destruidas: </font><font COLOR=white>{{ventanas}}</font></p></h1>
   </div>
