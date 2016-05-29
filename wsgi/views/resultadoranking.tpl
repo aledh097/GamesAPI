@@ -41,7 +41,7 @@
 
 </p> 
 <br></br>
-<b2><p align="right"><font color=white face="Tahoma" size="4">Ranking de Clash Of Clans 2016</font></p></b2>
+<b2><p align="right"><font color=white face="Tahoma" size="4">Estadísticas jugador CSGO 2016</font></p></b2>
 
 <div id="botones"> 
 <a href="/"><img class="inicio" src="/static/images/clan1.png" onmouseover="this.style.opacity=1;this.filters.alpha.opacity='100';" onmouseout="this.style.opacity=0.8;this.filters.alpha.opacity='20';"/></a> 
