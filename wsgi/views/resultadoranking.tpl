@@ -18,7 +18,7 @@
 <h1><p align="middle"><font COLOR=#FAFFCB>Total de víctimas: </font><font COLOR=white>{{total_victimas}} <img src="http://www.conozcaelyunque.es/wp-content/uploads/2015/03/victima.gif" border="0" width="50" height="50"></font></p></h1>
 <h1><p align="middle"><font COLOR=#FAFFCB>Total de muertes: </font><font COLOR=white>{{total_muertes }}<img src="http://freeiconbox.com/icon/256/12231.png" border="0" width="50" height="50"></font></p></h1>
 <h1><p align="middle"><font COLOR=#FAFFCB>Media víctimas/muertes: </font><font COLOR=white>{{media}}</font></p></h1>
-<h1><p align="middle"><font COLOR=#FAFFCB>Disparos a la cabeza: </font><font COLOR=white>{{cabeza}}</font></p></h1>
+<h1><p align="middle"><font COLOR=#FAFFCB>Disparos a la cabeza: </font><font COLOR=white>{{cabeza}} <img src="http://www.fancyicons.com/free-icons/232/cinema/png/256/human_head_256.png" border="0" width="50" height="50"></font></p></h1>
 <h1><p align="middle"><font COLOR=#FAFFCB>Bombas colocadas: </font><font COLOR=white>{{bombas_colocadas}}</font></p></h1>
 <h1><p align="middle"><font COLOR=#FAFFCB>Bombas desactivadas: </font><font COLOR=white>{{bombas_desactivadas}}</font></p></h1>
 <h1><p align="middle"><font COLOR=#FAFFCB>Rehenes rescatados: </font><font COLOR=white>{{rehenes}}</font></p></h1>
