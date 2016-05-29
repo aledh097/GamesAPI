@@ -43,7 +43,7 @@ def index():
 
 @route('/csgo')
 def coc():
-    return template('coc.tpl')
+    return template('csgo.tpl')
 
 @route('/steam')
 def steam():
