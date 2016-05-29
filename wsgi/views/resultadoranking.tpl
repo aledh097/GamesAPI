@@ -11,10 +11,10 @@
 </html>
 
 <body> 
-<h1><font COLOR=white>Ranking de la localidad x :</font></h1>
+<h1><font COLOR=white>Estadísticas de {{nick}}:</font></h1>
 <form method="Post" action="ingreso.asp"> 
 
-<h1><p>{{total_muertes}}</p></h1>
+<h1><p>Total de muertos: {{total_muertes}}</p></h1>
 <h2><p>En esta caja iran los datos :D.</p></h2>
 <p>En esta caja iran los datos :D.</p>
 <p>En esta caja iran los datos :D.</p>
