@@ -32,6 +32,8 @@
 <h1><p align="middle"><font COLOR=#FAFFCB>Dominaciones: </font><font COLOR=white>{{dominaciones}}</font></p></h1>
 <h1><p align="middle"><font COLOR=#FAFFCB>Víctimas durante dominación: </font><font COLOR=white>{{victimas_dominaciones}}</font></p></h1>
 <h1><p align="middle"><font COLOR=#FAFFCB>Venganzas de dominación: </font><font COLOR=white>{{venganzas_dominaciones}}</font></p></h1>
+<h1><p align="middle"><font COLOR=#FAFFCB>Rondas de pistola ganada: </font><font COLOR=white>{{rondas_pistolas}}</font></p></h1>
+
   </div>
 </div>
 
