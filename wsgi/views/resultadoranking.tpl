@@ -6,7 +6,7 @@
 		<title>RANKING</title>
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-		<link rel="stylesheet" href="/static/css/resultadoranking.css" />
+		<link rel="stylesheet" href="/static/css/estadisticas.css" />
 	</head>
 </html>
 <body> 

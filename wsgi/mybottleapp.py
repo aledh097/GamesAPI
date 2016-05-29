@@ -55,7 +55,7 @@ def noticia():
 
 @route('/estadisticas', method = ["GET"])
 def clan():
-    return template('clan.tpl')
+    return template('estadisticas.tpl')
 
 @route('/perfilopciones')
 def perfil():
