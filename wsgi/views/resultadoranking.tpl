@@ -17,6 +17,7 @@
 <h1><p align="middle">Total de víctimas: {{total_victimas}}</p></h1>
 <h1><p align="middle">Total de muertes: {{total_muertes}}</p></h1>
 <h1><p align="middle">Tiempo jugado: {{tiempo}}</p></h1>
+<h1><p align="middle">Disparos a la cabeza:</p></h1>
 <h2><p>En esta caja iran los datos :D.</p></h2>
 <p>En esta caja iran los datos :D.</p>
 <p>En esta caja iran los datos :D.</p>
