@@ -23,7 +23,7 @@
 <h1><p align="middle"><font COLOR=#FAFFCB>Bombas desactivadas: </font><font COLOR=white>{{bombas_desactivadas}} <img src="http://vignette1.wikia.nocookie.net/cswikia/images/9/9e/W_c4_csgo.png/revision/latest?cb=20151122043536" border="0" width="50" height="50"></font></p></h1>
 <h1><p align="middle"><font COLOR=#FAFFCB>Rehenes rescatados: </font><font COLOR=white>{{rehenes}} <img src="http://2.bp.blogspot.com/-wUUOTc37CvE/UAgh_3vgHwI/AAAAAAAAAaY/7eY-n0ShQ6k/s1600/hombre.png" border="0" width="50" height="50"></font></p></h1>
 <h1><p align="middle"><font COLOR=#FAFFCB>Partidas jugadas: </font><font COLOR=white>{{jugadas}}</font></p></h1>
-<h1><p align="middle"><font COLOR=#FAFFCB>Partidas ganadas: </font><font COLOR=white>{{ganadas}}</font></p></h1>
+<h1><p align="middle"><font COLOR=#FAFFCB>Partidas ganadas: </font><font COLOR=white>{{ganadas}} <img src="http://images3.wikia.nocookie.net/__cb20141218172544/novela-prueba/es/images/7/70/Golden-trophy-icon-1106112624.png" border="0" width="50" height="50"></font></p></h1>
 <h1><p align="middle"><font COLOR=#FAFFCB>Estrellas MVP: </font><font COLOR=white>{{estrellas}}</font></p></h1>
 <h1><p align="middle"><font COLOR=#FAFFCB>Armas donadas al equipo: </font><font COLOR=white>{{armas_equipo}}</font></p></h1>
 <h1><p align="middle"><font COLOR=#FAFFCB>Víctimas con una arma enemiga: </font><font COLOR=white>{{victimas_arma_enemiga}}</font></p></h1>
