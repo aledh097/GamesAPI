@@ -17,6 +17,8 @@
 <h1><p align="middle">Total de víctimas: <font COLOR=white>{{total_victimas}}</font></p></h1>
 <h1><p align="middle">Total de muertes: <font COLOR=white>{{total_muertes}}</font></p></h1>
 <h1><p align="middle">Disparos a la cabeza: <font COLOR=white>{{cabeza}}</font></p></h1>
+<h1><p align="middle">Bombas colocadas: <font COLOR=white>{{bombas_colocadas}}</font></p></h1>
+<h1><p align="middle">Bombas desactivadas: <font COLOR=white>{{bombas_desactivadas}}</font></p></h1>
 <h2><p>En esta caja iran los datos :D.</p></h2>
 <p>En esta caja iran los datos :D.</p>
 <p>En esta caja iran los datos :D.</p>
