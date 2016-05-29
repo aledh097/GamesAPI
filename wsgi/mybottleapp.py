@@ -225,7 +225,9 @@ def resultadoranking():
     jugadas=datos5["playerstats"]["stats"][128]["value"]
     ganadas=datos5["playerstats"]["stats"][127]["value"]
     estrellas=datos5["playerstats"]["stats"][102]["value"]
-    return template('resultadoranking.tpl', nick=nick,total_victimas=total_victimas,total_muertes=total_muertes, cabeza=cabeza,bombas_colocadas=bombas_colocadas,bombas_desactivadas=bombas_desactivadas,rehenes=rehenes,jugadas=jugadas,ganadas=ganadas)
+    armas_equipo=datos5["playerstats"]["stats"][38]["value"]
+
+    return template('resultadoranking.tpl', nick=nick,total_victimas=total_victimas,total_muertes=total_muertes, cabeza=cabeza,bombas_colocadas=bombas_colocadas,bombas_desactivadas=bombas_desactivadas,rehenes=rehenes,jugadas=jugadas,ganadas=ganadas,estrellas=estrellas,armas_equipo=armas_equipo)
 
 def get_request_token():
     oauth = OAuth1(CONSUMER_KEY,
