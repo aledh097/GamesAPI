@@ -216,7 +216,7 @@ def resultadoranking():
     dicc_parametros6={'key':'1685786EECBF130267010877BAB447D0','steamid':id_nick}
     r6 = requests.get("http://api.steampowered.com/ISteamUserStats/GetUserStatsForGame/v0002/?appid=730", params=dicc_parametros6)
     datos5 = json.loads(r6.text.encode("utf-8"))
-    total_muertes=datos5["playerstats"]["stats"][0]
+    total_muertes=datos5["playerstats"]["stats"][0]["name"]
     return template('resultadoranking.tpl', total_muertes=total_muertes)
 
 def get_request_token():
