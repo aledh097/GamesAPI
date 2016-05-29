@@ -13,7 +13,7 @@
 <form method="Post" action="/resultadoranking"> 
 
 <div id="search-form">
-<form class="form-container" action="/resultadoestadistica" method="post">
+<form class="form-container" action="/resultadoestadisticas" method="post">
 <p>NICK: <input name="nombrelocalidad" type="text" class="search-field"/></p>
 <div class="submit-container">
 <br></br>
