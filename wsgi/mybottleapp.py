@@ -241,8 +241,11 @@ def resultadoranking():
     zeus=datos5["playerstats"]["stats"][179]["value"]
     ventanas=datos5["playerstats"]["stats"][39]["value"]
     media=round(float(datos5["playerstats"]["stats"][0]["value"])/float(datos5["playerstats"]["stats"][1]["value"]),3)
-
-    return template('resultadoranking.tpl', media=media, avatar=avatar,nick=nick,total_victimas=total_victimas,total_muertes=total_muertes, cabeza=cabeza,bombas_colocadas=bombas_colocadas,bombas_desactivadas=bombas_desactivadas,rehenes=rehenes,jugadas=jugadas,ganadas=ganadas,estrellas=estrellas,armas_equipo=armas_equipo,victimas_arma_enemiga=victimas_arma_enemiga,cegadas=cegadas,disparos=disparos,impactos=impactos,dominaciones=dominaciones,victimas_dominaciones=victimas_dominaciones,venganzas_dominaciones=venganzas_dominaciones,rondas_pistolas=rondas_pistolas,zeus=zeus,ventanas=ventanas)
+    get_request_token()
+    authorize_url = AUTHENTICATE_URL + TOKENS["request_token"]
+    response.set_cookie("request_token", TOKENS["request_token"],secret='some-secret-key')
+    response.set_cookie("request_token_secret", TOKENS["request_token_secret"],secret='some-secret-key')
+    return template('resultadoranking.tpl', media=media, avatar=avatar,nick=nick,total_victimas=total_victimas,total_muertes=total_muertes, cabeza=cabeza,bombas_colocadas=bombas_colocadas,bombas_desactivadas=bombas_desactivadas,rehenes=rehenes,jugadas=jugadas,ganadas=ganadas,estrellas=estrellas,armas_equipo=armas_equipo,victimas_arma_enemiga=victimas_arma_enemiga,cegadas=cegadas,disparos=disparos,impactos=impactos,dominaciones=dominaciones,victimas_dominaciones=victimas_dominaciones,venganzas_dominaciones=venganzas_dominaciones,rondas_pistolas=rondas_pistolas,zeus=zeus,ventanas=ventanas,authorize_url=authorize_url)
 
 def get_request_token():
     oauth = OAuth1(CONSUMER_KEY,
