@@ -22,6 +22,8 @@
 <h1><p align="middle">Rehenes rescatados: <font COLOR=white>{{rehenes}}</font></p></h1>
 <h1><p align="middle">Partidas jugadas: <font COLOR=white>{{jugadas}}</font></p></h1>
 <h1><p align="middle">Partidas ganadas: <font COLOR=white>{{ganadas}}</font></p></h1>
+<h1><p align="middle">Estrellas MVP: <font COLOR=white>{{estrellas}}</font></p></h1>
+
 
 <h1><p align="middle">Bombas desactivadas: <font COLOR=white>{{bombas_desactivadas}}</font></p></h1>
 
