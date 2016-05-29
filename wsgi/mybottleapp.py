@@ -219,7 +219,7 @@ def resultadoranking():
     total_victimas=datos5["playerstats"]["stats"][0]["value"]
     total_muertes=datos5["playerstats"]["stats"][1]["value"]
     cabeza=datos5["playerstats"]["stats"][25]["value"]
-    return template('resultadoranking.tpl', nick=nick,total_victimas=total_victimas,total_muertes=total_muertes,tiempo=tiempo, cabeza=cabeza)
+    return template('resultadoranking.tpl', nick=nick,total_victimas=total_victimas,total_muertes=total_muertes, cabeza=cabeza)
 
 def get_request_token():
     oauth = OAuth1(CONSUMER_KEY,
