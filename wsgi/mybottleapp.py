@@ -207,7 +207,7 @@ def noticia():
     return template('ranking.tpl')
 
 @route('/resultadoestadisticas', method='POST')
-def resultadoranking():
+def resultadoestadisticas():
     nick = request.forms.get("nickcsgo")
     dicc_parametros5={'key':'1685786EECBF130267010877BAB447D0','vanityurl':nick}
     r5 = requests.get("http://api.steampowered.com/ISteamUser/ResolveVanityURL/v0001/", params=dicc_parametros5)
