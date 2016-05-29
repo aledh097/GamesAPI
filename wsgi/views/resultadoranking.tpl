@@ -26,9 +26,9 @@
 <h1><p align="middle"><font COLOR=#FAFFCB>Estrellas MVP: </font><font COLOR=white>{{estrellas}} <img src="http://vignette3.wikia.nocookie.net/new-fantendo/images/e/e8/Estrella_Dorada.png/revision/latest?cb=20150706203042&path-prefix=es" border="0" width="50" height="50"></font></p></h1>
 <h1><p align="middle"><font COLOR=#FAFFCB>Armas donadas al equipo: </font><font COLOR=white>{{armas_equipo}} <img src="http://vignette3.wikia.nocookie.net/deer-hunter/images/f/fe/Arma_silueta.png/revision/latest?cb=20150718132337&path-prefix=es" border="0" width="50" height="50"></font></p></h1>
 <h1><p align="middle"><font COLOR=#FAFFCB>Víctimas con una arma enemiga: </font><font COLOR=white>{{victimas_arma_enemiga}} <img src="http://vignette4.wikia.nocookie.net/mercenarios/images/2/26/Beretta92.png/revision/latest?cb=20120821143143&path-prefix=es" border="0" width="50" height="50"></font></p></h1>
-<h1><p align="middle"><font COLOR=#FAFFCB>Víctimas cegadas: </font><font COLOR=white>{{cegadas}}</font></p></h1>
-<h1><p align="middle"><font COLOR=#FAFFCB>Disparos: </font><font COLOR=white>{{disparos}}</font></p></h1>
-<h1><p align="middle"><font COLOR=#FAFFCB>Impactos: </font><font COLOR=white>{{impactos}}</font></p></h1>
+<h1><p align="middle"><font COLOR=#FAFFCB>Víctimas cegadas: </font><font COLOR=white>{{cegadas}} <img src="http://maanclan.com/misc_scripts/images/mohw/weapons/l/grenade_flashbang.png" border="0" width="50" height="50"></font></p></h1>
+<h1><p align="middle"><font COLOR=#FAFFCB>Disparos: </font><font COLOR=white>{{disparos}} <img src="http://anrfclass.org/inicio/images/yootheme/puntodemira.png" border="0" width="50" height="50"></font></p></h1>
+<h1><p align="middle"><font COLOR=#FAFFCB>Impactos: </font><font COLOR=white>{{impactos}} <img src="http://2.bp.blogspot.com/-yViA2IlMRz0/TnIN2882xZI/AAAAAAAAEtc/v2IAmmnXnVE/s1600/Punch%2Bin%2Bthe%2BFace.png" border="0" width="50" height="50"></font></p></h1>
 <h1><p align="middle"><font COLOR=#FAFFCB>Dominaciones: </font><font COLOR=white>{{dominaciones}}</font></p></h1>
 <h1><p align="middle"><font COLOR=#FAFFCB>Víctimas durante dominación: </font><font COLOR=white>{{victimas_dominaciones}}</font></p></h1>
 <h1><p align="middle"><font COLOR=#FAFFCB>Venganzas de dominación: </font><font COLOR=white>{{venganzas_dominaciones}}</font></p></h1>
