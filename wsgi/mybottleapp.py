@@ -54,7 +54,7 @@ def noticia():
     return template('noticia.tpl')
 
 @route('/estadisticas', method = ["GET"])
-def clan():
+def estadisticas():
     return template('estadisticas.tpl')
 
 @route('/perfilopciones')
@@ -201,10 +201,6 @@ def resultadonoticia():
     detalles=datos3["appnews"]["newsitems"][0]["contents"]
     url_noticia=datos3["appnews"]["newsitems"][0]["url"]
     return template('resultadonoticia.tpl', titulo=titulo, detalles=detalles, url_noticia=url_noticia)
-
-@route('/ranking', method = ["GET"])
-def noticia():
-    return template('ranking.tpl')
 
 @route('/resultadoestadisticas', method='POST')
 def resultadoestadisticas():
