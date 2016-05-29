@@ -10,7 +10,7 @@
 <h1><font COLOR=white>Encuentra las estadísticas de un jugador del CSGO</font></h1>
 <h2><font COLOR=white>Busca su nombre en el siguiente link: <a href="https://steamcommunity.com/search/users
 " ><font color="9a82ff  ">Aqui!</a></font></h2> 
-<form method="Post" action="/resultadoranking"> 
+<form method="Post" action="/resultadoestadisticas"> 
 
 <div id="search-form">
 <form class="form-container" action="/resultadonoticia" method="post">
