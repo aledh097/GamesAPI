@@ -216,6 +216,10 @@ def resultadoranking():
     dicc_parametros6={'key':'1685786EECBF130267010877BAB447D0','steamid':id_nick}
     r6 = requests.get("http://api.steampowered.com/ISteamUserStats/GetUserStatsForGame/v0002/?appid=730", params=dicc_parametros6)
     datos5 = json.loads(r6.text.encode("utf-8"))
+    dicc_parametros7={'key':'1685786EECBF130267010877BAB447D0','steamids':id_nick}
+    r7 = requests.get("http://api.steampowered.com/ISteamUser/GetPlayerSummaries/v0002/", params=dicc_parametros3)
+    datos7 = json.loads(r7.text.encode("utf-8"))
+    avatar=datos7["response"]["players"][0]["avatarfull"]
     total_victimas=datos5["playerstats"]["stats"][0]["value"]
     total_muertes=datos5["playerstats"]["stats"][1]["value"]
     cabeza=datos5["playerstats"]["stats"][25]["value"]
@@ -230,7 +234,7 @@ def resultadoranking():
     cegadas=datos5["playerstats"]["stats"][40]["value"]
 
 
-    return template('resultadoranking.tpl', nick=nick,total_victimas=total_victimas,total_muertes=total_muertes, cabeza=cabeza,bombas_colocadas=bombas_colocadas,bombas_desactivadas=bombas_desactivadas,rehenes=rehenes,jugadas=jugadas,ganadas=ganadas,estrellas=estrellas,armas_equipo=armas_equipo,victimas_arma_enemiga=victimas_arma_enemiga,cegadas=cegadas)
+    return template('resultadoranking.tpl', avatar=avatar,nick=nick,total_victimas=total_victimas,total_muertes=total_muertes, cabeza=cabeza,bombas_colocadas=bombas_colocadas,bombas_desactivadas=bombas_desactivadas,rehenes=rehenes,jugadas=jugadas,ganadas=ganadas,estrellas=estrellas,armas_equipo=armas_equipo,victimas_arma_enemiga=victimas_arma_enemiga,cegadas=cegadas)
 
 def get_request_token():
     oauth = OAuth1(CONSUMER_KEY,

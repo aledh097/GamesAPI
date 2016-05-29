@@ -13,6 +13,7 @@
 <body> 
 <h1 align="middle"><font COLOR=white>Estadísticas de {{nick}}:</font></h1>
 <form method="Post" action="ingreso.asp"> 
+<h2 align="center"><font COLOR=white>Avatar:</font></h2> <center><img src={{avatar}}></center>
 <br></br>
 <h1><p align="middle">Total de víctimas: <font COLOR=white>{{total_victimas}}</font></p></h1>
 <h1><p align="middle">Total de muertes: <font COLOR=white>{{total_muertes}}</font></p></h1>
