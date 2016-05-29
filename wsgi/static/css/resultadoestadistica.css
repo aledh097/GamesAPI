@@ -1,0 +1,41 @@
+h1 {
+    text-shadow: 1px 1px 2px black, 0 0 2px black, 0 0 6px black;
+}
+b2 {
+    text-shadow: 1px 1px 2px black, 0 0 1px red, 0 0 1px red;
+}
+
+
+
+html {
+  background: url("/static/images/coccss-3.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; 
+}
+
+#botones{ 
+position: relative;
+top: 10px;
+left: 10px;
+display: block; 
+margin: 0px auto; 
+padding: 0px; 
+} 
+
+.inicio{ 
+width: 60px; 
+height: 60px; 
+background: url("/static/images/clancss-2.png") no-repeat; 
+} 
+
+.inicio2{ 
+position: relative;
+top: -70px;
+left: 60px;
+width: 60px; 
+height: 60px; 
+background: url("/static/images/clancss-3.png") no-repeat; 
+} 
+
