@@ -27,8 +27,9 @@
 <h1><p align="middle">Armas donadas al equipo: <font COLOR=white>{{armas_equipo}}</font></p></h1>
 <h1><p align="middle">Víctimas con una arma enemiga: <font COLOR=white>{{victimas_arma_enemiga}}</font></p></h1>
 <h1><p align="middle">Víctimas cegadas: <font COLOR=white>{{cegadas}}</font></p></h1>
-<h1><p align="middle">Total disparos: <font COLOR=white>{{disparos}}</font></p></h1>
-<h1><p align="middle">Total impactos: <font COLOR=white>{{impactos}}</font></p></h1>
+<h1><p align="middle">Disparos: <font COLOR=white>{{disparos}}</font></p></h1>
+<h1><p align="middle">Impactos: <font COLOR=white>{{impactos}}</font></p></h1>
+<h1><p align="middle">Dominaciones: <font COLOR=white>{{dominaciones}}</font></p></h1>
 
   </div>
 </div>
