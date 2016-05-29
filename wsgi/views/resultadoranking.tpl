@@ -24,7 +24,7 @@
 <h1><p align="middle">Partidas ganadas: <font COLOR=white>{{ganadas}}</font></p></h1>
 <h1><p align="middle">Estrellas MVP: <font COLOR=white>{{estrellas}}</font></p></h1>
 <h1><p align="middle">Armas donadas al equipo: <font COLOR=white>{{armas_equipo}}</font></p></h1>
-
+<h1><p align="middle">Víctimas con una arma enemiga: <font COLOR=white>{{victimas_arma_enemiga}}</font></p></h1>
 
 
 <h1><p align="middle">Bombas desactivadas: <font COLOR=white>{{bombas_desactivadas}}</font></p></h1>
