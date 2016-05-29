@@ -15,24 +15,23 @@
 <form method="Post" action="ingreso.asp"> 
 <h2 align="center"><font COLOR=white></font></h2> <center><img src={{avatar}}></center>
 <br></br>
-<h1><p align="middle"><font COLOR=#D3D3D3>Total de víctimas: </font><font COLOR=white>{{total_victimas}}</font></p></h1>
-<h1><p align="middle"><font COLOR=#D3D3D3>Total de muertes: </font><font COLOR=white>{{total_muertes}}</font></p></h1>
-<h1><p align="middle"><font COLOR=#D3D3D3>Disparos a la cabeza: </font><font COLOR=white>{{cabeza}}</font></p></h1>
-<h1><p align="middle"><font COLOR=#D3D3D3>Bombas colocadas: </font><font COLOR=white>{{bombas_colocadas}}</font></p></h1>
-<h1><p align="middle"><font COLOR=#D3D3D3>Bombas desactivadas: </font><font COLOR=white>{{bombas_desactivadas}}</font></p></h1>
-<h1><p align="middle"><font COLOR=#D3D3D3>Rehenes rescatados: </font><font COLOR=white>{{rehenes}}</font></p></h1>
-<h1><p align="middle"><font COLOR=#D3D3D3>Partidas jugadas: </font><font COLOR=white>{{jugadas}}</font></p></h1>
-<h1><p align="middle"><font COLOR=#D3D3D3>Partidas ganadas: </font><font COLOR=white>{{ganadas}}</font></p></h1>
-<h1><p align="middle"><font COLOR=#D3D3D3>Estrellas MVP: </font><font COLOR=white>{{estrellas}}</font></p></h1>
-<h1><p align="middle"><font COLOR=#D3D3D3>Armas donadas al equipo: </font><font COLOR=white>{{armas_equipo}}</font></p></h1>
-<h1><p align="middle"><font COLOR=#D3D3D3>Víctimas con una arma enemiga: </font><font COLOR=white>{{victimas_arma_enemiga}}</font></p></h1>
-<h1><p align="middle"><font COLOR=#D3D3D3>Víctimas cegadas: </font><font COLOR=white>{{cegadas}}</font></p></h1>
-<h1><p align="middle"><font COLOR=#D3D3D3>Disparos: </font><font COLOR=white>{{disparos}}</font></p></h1>
-<h1><p align="middle"><font COLOR=#D3D3D3>Impactos: </font><font COLOR=white>{{impactos}}</font></p></h1>
-<h1><p align="middle"><font COLOR=#D3D3D3>Dominaciones: </font><font COLOR=white>{{dominaciones}}</font></p></h1>
-<h1><p align="middle"><font COLOR=#D3D3D3>Víctimas durante dominación: </font><font COLOR=white>{{victimas_dominaciones}}</font></p></h1>
-<h1><p align="middle"><font COLOR=#D3D3D3>Venganzas de dominación: </font><font COLOR=white>{{venganzas_dominaciones}}</font></p></h1>
-
+<h1><p align="middle"><font COLOR=#FAFFCB>Total de víctimas: </font><font COLOR=white>{{total_victimas}}</font></p></h1>
+<h1><p align="middle"><font COLOR=#FAFFCB>Total de muertes: </font><font COLOR=white>{{total_muertes}}</font></p></h1>
+<h1><p align="middle"><font COLOR=#FAFFCB>Disparos a la cabeza: </font><font COLOR=white>{{cabeza}}</font></p></h1>
+<h1><p align="middle"><font COLOR=#FAFFCB>Bombas colocadas: </font><font COLOR=white>{{bombas_colocadas}}</font></p></h1>
+<h1><p align="middle"><font COLOR=#FAFFCB>Bombas desactivadas: </font><font COLOR=white>{{bombas_desactivadas}}</font></p></h1>
+<h1><p align="middle"><font COLOR=#FAFFCB>Rehenes rescatados: </font><font COLOR=white>{{rehenes}}</font></p></h1>
+<h1><p align="middle"><font COLOR=#FAFFCB>Partidas jugadas: </font><font COLOR=white>{{jugadas}}</font></p></h1>
+<h1><p align="middle"><font COLOR=#FAFFCB>Partidas ganadas: </font><font COLOR=white>{{ganadas}}</font></p></h1>
+<h1><p align="middle"><font COLOR=#FAFFCB>Estrellas MVP: </font><font COLOR=white>{{estrellas}}</font></p></h1>
+<h1><p align="middle"><font COLOR=#FAFFCB>Armas donadas al equipo: </font><font COLOR=white>{{armas_equipo}}</font></p></h1>
+<h1><p align="middle"><font COLOR=#FAFFCB>Víctimas con una arma enemiga: </font><font COLOR=white>{{victimas_arma_enemiga}}</font></p></h1>
+<h1><p align="middle"><font COLOR=#FAFFCB>Víctimas cegadas: </font><font COLOR=white>{{cegadas}}</font></p></h1>
+<h1><p align="middle"><font COLOR=#FAFFCB>Disparos: </font><font COLOR=white>{{disparos}}</font></p></h1>
+<h1><p align="middle"><font COLOR=#FAFFCB>Impactos: </font><font COLOR=white>{{impactos}}</font></p></h1>
+<h1><p align="middle"><font COLOR=#FAFFCB>Dominaciones: </font><font COLOR=white>{{dominaciones}}</font></p></h1>
+<h1><p align="middle"><font COLOR=#FAFFCB>Víctimas durante dominación: </font><font COLOR=white>{{victimas_dominaciones}}</font></p></h1>
+<h1><p align="middle"><font COLOR=#FAFFCB>Venganzas de dominación: </font><font COLOR=white>{{venganzas_dominaciones}}</font></p></h1>
   </div>
 </div>
 
