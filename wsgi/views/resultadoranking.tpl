@@ -29,8 +29,8 @@
 <h1><p align="middle"><font COLOR=#FAFFCB>Víctimas cegadas: </font><font COLOR=white>{{cegadas}} <img src="http://maanclan.com/misc_scripts/images/mohw/weapons/l/grenade_flashbang.png" border="0" width="50" height="50"></font></p></h1>
 <h1><p align="middle"><font COLOR=#FAFFCB>Disparos: </font><font COLOR=white>{{disparos}} <img src="http://anrfclass.org/inicio/images/yootheme/puntodemira.png" border="0" width="50" height="50"></font></p></h1>
 <h1><p align="middle"><font COLOR=#FAFFCB>Impactos: </font><font COLOR=white>{{impactos}} <img src="http://2.bp.blogspot.com/-yViA2IlMRz0/TnIN2882xZI/AAAAAAAAEtc/v2IAmmnXnVE/s1600/Punch%2Bin%2Bthe%2BFace.png" border="0" width="50" height="50"></font></p></h1>
-<h1><p align="middle"><font COLOR=#FAFFCB>Dominaciones: </font><font COLOR=white>{{dominaciones}}</font></p></h1>
-<h1><p align="middle"><font COLOR=#FAFFCB>Víctimas durante dominación: </font><font COLOR=white>{{victimas_dominaciones}}</font></p></h1>
+<h1><p align="middle"><font COLOR=#FAFFCB>Dominaciones: </font><font COLOR=white>{{dominaciones}} <img src="http://market-hash.com/wp-content/uploads/2014/06/dominate-the-competition.png" border="0" width="50" height="50"></font></p></h1>
+<h1><p align="middle"><font COLOR=#FAFFCB>Víctimas durante dominación: </font><font COLOR=white>{{victimas_dominaciones}} <img src="http://louisluwe.com/wp-content/uploads/2014/03/Create-And-Dominate-Your-Own-Market-300x272.png" border="0" width="50" height="50"></font></p></h1>
 <h1><p align="middle"><font COLOR=#FAFFCB>Venganzas de dominación: </font><font COLOR=white>{{venganzas_dominaciones}}</font></p></h1>
 <h1><p align="middle"><font COLOR=#FAFFCB>Rondas de pistola ganada: </font><font COLOR=white>{{rondas_pistolas}}</font></p></h1>
 <h1><p align="middle"><font COLOR=#FAFFCB>Víctimas con Zeus: </font><font COLOR=white>{{zeus}}</font></p></h1>
