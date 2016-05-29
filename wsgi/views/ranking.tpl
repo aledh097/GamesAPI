@@ -21,15 +21,6 @@
 <input type="reset" value="Restablecer" name="B2">
 </div>
 <br></br>
-<TR>
-	<h3><TD>Ranking de: </TD><h3>
-	<TD>
-	<SELECT name="ordenarpor">
-		<OPTION VALUE="Clanes">Clanes</OPTION>
-		<OPTION VALUE="Jugadores">Jugadores</OPTION>
-	</SELECT>
-	</TD>
-</TR>
 </p> 
 <br></br>
 <b2><p align="left"><font face="Tahoma" size="2">Ranking actual de Clash of Clans 2016</font></p></b2>
