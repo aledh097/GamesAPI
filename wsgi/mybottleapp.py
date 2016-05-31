@@ -315,6 +315,9 @@ def tweet_submit():
   else:
     return "<p>No puede enviar el tweet, intentelo mas tarde...</p>"+r.content
 
+@error(500)
+def error500(error):
+	return template('404.tpl')
 # This must be added in order to do correct path lookups for the views
 import os
 TEMPLATE_PATH.append(os.path.join(os.environ['OPENSHIFT_REPO_DIR'], 'wsgi/views/')) 
