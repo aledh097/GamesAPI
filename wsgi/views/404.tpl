@@ -7,6 +7,5 @@
 </html>
 
 <body> 
-<h1><font COLOR=white>No se ha encontrado el usuario {{nick}}</font></h1>
 </body> 
 </html> 
