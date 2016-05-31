@@ -135,7 +135,8 @@ def resultadoperfil2():
     dicc_parametros3={'key':'1685786EECBF130267010877BAB447D0','steamids':id_nick}
     r3 = requests.get("http://api.steampowered.com/ISteamUser/GetPlayerSummaries/v0002/", params=dicc_parametros3)
     datos2 = json.loads(r3.text.encode("utf-8"))
-    if datos2["response"]["message"] == 'No match':
+    
+    if datosnick["response"]["message"] == 'No match':
     	return template('404.tpl', nick=nick)
     else:
 	    try:
