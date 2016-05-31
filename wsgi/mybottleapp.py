@@ -136,7 +136,8 @@ def resultadoperfil2():
     r3 = requests.get("http://api.steampowered.com/ISteamUser/GetPlayerSummaries/v0002/", params=dicc_parametros3)
     datos2 = json.loads(r3.text.encode("utf-8"))
     
-    return template('404.tpl', nick=nick)
+    if datosnick["response"]["message"] == 'No match':
+    	return template('404.tpl', nick=nick)
 
 @route('/resultadonoticia', method='POST')
 def resultadonoticia():
